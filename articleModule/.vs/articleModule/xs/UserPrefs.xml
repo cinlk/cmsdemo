@@ -1,0 +1,40 @@
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ArticleController.cs">
+    <Files>
+      <File FileName="DbDapper.cs" Line="25" Column="13" />
+      <File FileName="Controllers/ArticleController.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="articleModule" expanded="True">
+            <Node name="articleModule" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ArticleController.cs" selected="True" />
+              </Node>
+              <Node name="Drivers" expanded="True" />
+              <Node name="Indexes" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Article" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="ArticleModel.cshtml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

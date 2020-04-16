@@ -1,0 +1,14 @@
+﻿{
+  "ArticleModel": [
+    {
+      "place": "Content:1"
+    }
+  ],
+  "HtmlField": [
+    {
+      "place": "Content:2",
+      "differentiator": "Article-Body"
+    }
+  ]
+
+}

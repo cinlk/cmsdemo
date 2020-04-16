@@ -1,0 +1,123 @@
+2020-04-12 17:18:15.5223 Info Message Template Auto Format enabled
+2020-04-12 17:18:15.5245 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-12 17:18:15.5258 Info Loading assembly: OrchardCore.Logging.NLog
+2020-04-12 17:18:15.5300 Info Adding target FileTarget(Name=file)
+2020-04-12 17:18:15.5304 Info Adding target ConsoleTarget(Name=console)
+2020-04-12 17:18:15.5352 Info Closing old configuration.
+2020-04-12 17:18:15.6235 Info Found 37 configuration items
+2020-04-12 17:18:22.9602 Warn Attempt #0 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:18:22.9615 Warn Attempt #1 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:18:22.9624 Warn Attempt #2 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:18:22.9624 Warn Attempt #3 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:18:22.9624 Warn Attempt #4 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 15ms
+2020-04-12 17:18:22.9812 Warn Attempt #5 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:18:22.9833 Warn Attempt #6 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 3ms
+2020-04-12 17:18:22.9882 Warn Attempt #7 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 50ms
+2020-04-12 17:18:23.0449 Warn Attempt #8 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 104ms
+2020-04-12 17:18:23.1710 Error FileTarget(Name=file): Failed write to file '/App_Data/logs/orchard-log-2020-04-12.log'. Exception: System.IO.IOException: Read-only file system
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-12 17:18:23.2130 Info AppDomain Shutting down. Logger closing...
+2020-04-12 17:18:23.2171 Info Logger has been shut down.
+2020-04-12 17:18:30.3559 Info Message Template Auto Format enabled
+2020-04-12 17:18:30.3691 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-12 17:18:30.3691 Info Loading assembly: OrchardCore.Logging.NLog
+2020-04-12 17:18:30.4197 Info Adding target FileTarget(Name=file)
+2020-04-12 17:18:30.4207 Info Adding target ConsoleTarget(Name=console)
+2020-04-12 17:18:30.5307 Info Found 37 configuration items
+2020-04-12 17:18:43.4626 Info Message Template Auto Format enabled
+2020-04-12 17:18:43.4750 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-12 17:18:43.4750 Info Loading assembly: OrchardCore.Logging.NLog
+2020-04-12 17:18:43.5160 Info Adding target FileTarget(Name=file)
+2020-04-12 17:18:43.5160 Info Adding target ConsoleTarget(Name=console)
+2020-04-12 17:18:43.6361 Info Found 37 configuration items
+2020-04-12 17:20:12.0100 Info Message Template Auto Format enabled
+2020-04-12 17:20:12.0324 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-12 17:20:12.0333 Info Loading assembly: OrchardCore.Logging.NLog
+2020-04-12 17:20:12.0962 Info Adding target FileTarget(Name=file)
+2020-04-12 17:20:12.0973 Info Adding target ConsoleTarget(Name=console)
+2020-04-12 17:20:12.2002 Info Found 37 configuration items
+2020-04-12 17:22:12.6764 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-12 17:22:13.6819 Info Reloading configuration...
+2020-04-12 17:22:13.6863 Info Configuring from an XML element in /Users/liangke/netCoreProject/orchard/develop/myCms/NLog.config...
+2020-04-12 17:22:13.6873 Info Message Template Auto Format enabled
+2020-04-12 17:22:13.6873 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-12 17:22:13.6901 Info Loading assembly: OrchardCore.Logging.NLog
+2020-04-12 17:22:13.6937 Info Adding target FileTarget(Name=file)
+2020-04-12 17:22:13.6942 Info Adding target ConsoleTarget(Name=console)
+2020-04-12 17:22:13.6988 Info Closing old configuration.
+2020-04-12 17:22:13.7837 Info Found 37 configuration items
+2020-04-12 17:22:16.8824 Warn Attempt #0 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:22:16.8833 Warn Attempt #1 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 1ms
+2020-04-12 17:22:16.8850 Warn Attempt #2 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 2ms
+2020-04-12 17:22:16.8880 Warn Attempt #3 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 1ms
+2020-04-12 17:22:16.8907 Warn Attempt #4 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 13ms
+2020-04-12 17:22:16.9052 Warn Attempt #5 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 22ms
+2020-04-12 17:22:16.9294 Warn Attempt #6 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 31ms
+2020-04-12 17:22:16.9614 Warn Attempt #7 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 66ms
+2020-04-12 17:22:17.0282 Warn Attempt #8 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 42ms
+2020-04-12 17:22:17.0743 Error FileTarget(Name=file): Failed write to file '/App_Data/logs/orchard-log-2020-04-12.log'. Exception: System.IO.IOException: Read-only file system
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-12 17:22:17.0901 Warn Attempt #0 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:22:17.0912 Warn Attempt #1 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:22:17.0912 Warn Attempt #2 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 3ms
+2020-04-12 17:22:17.0956 Warn Attempt #3 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 2ms
+2020-04-12 17:22:17.0984 Warn Attempt #4 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 1ms
+2020-04-12 17:22:17.1001 Warn Attempt #5 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:22:17.1004 Warn Attempt #6 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 12ms
+2020-04-12 17:22:17.1159 Warn Attempt #7 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 50ms
+2020-04-12 17:22:17.1712 Warn Attempt #8 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 121ms
+2020-04-12 17:22:17.2991 Error FileTarget(Name=file): Failed write to file '/App_Data/logs/orchard-log-2020-04-12.log'. Exception: System.IO.IOException: Read-only file system
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-12 17:22:17.3153 Info AppDomain Shutting down. Logger closing...
+2020-04-12 17:22:17.3178 Info Logger has been shut down.
+2020-04-12 17:22:24.0120 Info Message Template Auto Format enabled
+2020-04-12 17:22:24.0229 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-12 17:22:24.0235 Info Loading assembly: OrchardCore.Logging.NLog
+2020-04-12 17:22:24.0613 Info Adding target FileTarget(Name=file)
+2020-04-12 17:22:24.0613 Info Adding target ConsoleTarget(Name=console)
+2020-04-12 17:22:24.1696 Info Found 37 configuration items
+2020-04-12 17:23:41.3600 Info Configuration file change detected! Reloading in 1000ms...
+2020-04-12 17:23:42.3667 Info Reloading configuration...
+2020-04-12 17:23:42.3686 Info Configuring from an XML element in /Users/liangke/netCoreProject/orchard/develop/myCms/NLog.config...
+2020-04-12 17:23:45.6618 Warn Attempt #0 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:23:45.6630 Warn Attempt #1 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 1ms
+2020-04-12 17:23:45.6648 Warn Attempt #2 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 2ms
+2020-04-12 17:23:45.6676 Warn Attempt #3 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 5ms
+2020-04-12 17:23:45.6739 Warn Attempt #4 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:23:45.6739 Warn Attempt #5 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 25ms
+2020-04-12 17:23:45.7015 Warn Attempt #6 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 30ms
+2020-04-12 17:23:45.7330 Warn Attempt #7 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 15ms
+2020-04-12 17:23:45.7490 Warn Attempt #8 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 187ms
+2020-04-12 17:23:45.9461 Error FileTarget(Name=file): Failed write to file '/App_Data/logs/orchard-log-2020-04-12.log'. Exception: System.IO.IOException: Read-only file system
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
+2020-04-12 17:23:45.9643 Warn Attempt #0 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 0ms
+2020-04-12 17:23:45.9648 Warn Attempt #1 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 1ms
+2020-04-12 17:23:45.9667 Warn Attempt #2 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 1ms
+2020-04-12 17:23:45.9688 Warn Attempt #3 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 3ms
+2020-04-12 17:23:45.9735 Warn Attempt #4 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 7ms
+2020-04-12 17:23:45.9837 Warn Attempt #5 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 18ms
+2020-04-12 17:23:46.0072 Warn Attempt #6 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 17ms
+2020-04-12 17:23:46.0265 Warn Attempt #7 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 76ms
+2020-04-12 17:23:46.1054 Warn Attempt #8 to open /App_Data/logs/orchard-log-2020-04-12.log failed. Sleeping for 7ms
+2020-04-12 17:23:46.1159 Error FileTarget(Name=file): Failed write to file '/App_Data/logs/orchard-log-2020-04-12.log'. Exception: System.IO.IOException: Read-only file system
+   at System.IO.FileSystem.CreateDirectory(String fullPath)
+   at System.IO.Directory.CreateDirectory(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.CreateFileStream(Boolean allowFileSharedWriting, Int32 overrideBufferSize)
+   at NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender.Write(Byte[] bytes, Int32 offset, Int32 count)
+   at NLog.Targets.FileTarget.WriteToFile(String fileName, ArraySegment`1 bytes, Boolean initializedNewFile)
