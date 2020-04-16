@@ -136,6 +136,23 @@
           "Settings": {}
         }
       ]
+    },
+    {
+      "Name": "NewsModel",
+      "DisplayName": "News Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "NewsModel",
+          "Name": "NewsModel",
+          "Settings": {}
+        }
+      ]
     }
   ],
   "ContentPartDefinitionRecords": [
@@ -395,7 +412,37 @@
           }
         }
       ]
+    },
+    {
+      "Name": "NewsModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "Description",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "description",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {}
+          }
+        },
+        {
+          "FieldName": "HtmlField",
+          "Name": "ContentBody",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "content",
+              "Editor": "Wysiwyg"
+            },
+            "HtmlFieldSettings": {
+              "Hint": "内容"
+            }
+          }
+        }
+      ]
     }
   ],
-  "Serial": 92557
+  "Serial": 92560
 }

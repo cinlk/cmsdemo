@@ -80,6 +80,7 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminMenu")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.Admin")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("articleModule")]
+[assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("news")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("myCms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

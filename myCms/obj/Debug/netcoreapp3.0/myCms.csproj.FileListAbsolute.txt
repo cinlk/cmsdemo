@@ -662,3 +662,7 @@
 /Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/articleModule.Views.pdb
 /Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/articleModule.dll
 /Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/articleModule.pdb
+/Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/news.Views.dll
+/Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/news.Views.pdb
+/Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/news.dll
+/Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/news.pdb

@@ -1,7 +1,6 @@
 ﻿using System;
 using Dapper;
 using Microsoft.Extensions.Logging;
-
 using MySql.Data.MySqlClient;
 using articleModule.Models;
 using Microsoft.Extensions.Configuration;

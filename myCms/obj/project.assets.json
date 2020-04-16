@@ -6855,6 +6855,26 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "news/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.ContentTypes.Abstractions": "1.0.0-rc1-10004",
+          "OrchardCore.DisplayManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "compile": {
+          "bin/placeholder/news.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/news.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -18712,13 +18732,19 @@
       "type": "project",
       "path": "../articleModule/articleModule.csproj",
       "msbuildProject": "../articleModule/articleModule.csproj"
+    },
+    "news/1.0.0": {
+      "type": "project",
+      "path": "../news/news.csproj",
+      "msbuildProject": "../news/news.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "OrchardCore.Application.Cms.Targets >= 1.0.0-rc1-10004",
       "OrchardCore.Logging.NLog >= 1.0.0-rc1-10004",
-      "articleModule >= 1.0.0"
+      "articleModule >= 1.0.0",
+      "news >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -18747,6 +18773,9 @@
           "projectReferences": {
             "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj": {
               "projectPath": "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj"
+            },
+            "/Users/liangke/netCoreProject/orchard/develop/news/news.csproj": {
+              "projectPath": "/Users/liangke/netCoreProject/orchard/develop/news/news.csproj"
             }
           }
         }
