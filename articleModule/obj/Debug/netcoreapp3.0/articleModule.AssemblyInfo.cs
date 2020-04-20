@@ -13,12 +13,19 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("articleModule", "Module")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/articleModule/placement.json|/Users/liangke/netCoreProject/orchard/develop/" +
     "articleModule/placement.json")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/articleModule/Views/Admin/ArticleList.cshtml|/Users/liangke/netCoreProject/" +
+    "orchard/develop/articleModule/Views/Admin/ArticleList.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/articleModule/Views/Admin/Index.cshtml|/Users/liangke/netCoreProject/orchar" +
+    "d/develop/articleModule/Views/Admin/Index.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/articleModule/Views/ArticleModel.cshtml|/Users/liangke/netCoreProject/orcha" +
     "rd/develop/articleModule/Views/ArticleModel.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/articleModule/Views/ArticleModel.Edit.cshtml|/Users/liangke/netCoreProject/" +
     "orchard/develop/articleModule/Views/ArticleModel.Edit.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/articleModule/Views/Home/Index.cshtml|/Users/liangke/netCoreProject/orchard" +
     "/develop/articleModule/Views/Home/Index.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/articleModule/Views/NavigationItemText-persons.Id.cshtml|/Users/liangke/net" +
+    "CoreProject/orchard/develop/articleModule/Views/NavigationItemText-persons.Id.cs" +
+    "html")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("articleModule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

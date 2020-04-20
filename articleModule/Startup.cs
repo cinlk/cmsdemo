@@ -7,11 +7,13 @@ using OrchardCore.ContentManagement;
 using OrchardCore.ContentManagement.Display.ContentDisplay;
 //using OrchardCore.DisplayManagement;
 using OrchardCore.Data.Migration;
+using OrchardCore.Navigation;
 //using OrchardCore.Indexing;
 using articleModule.Models;
 using articleModule.Migrations;
 using articleModule.Indexes;
 using articleModule.Drivers;
+using articleModule.Navigation;
 using YesSql.Indexes;
 
 
@@ -33,7 +35,10 @@ namespace articleModule
             // register dapper
             services.AddSingleton<DbDapper>();
 
-            
+
+            // Admin Menu
+            services.AddScoped<INavigationProvider, PortalModuleMenu>();
+
         }
 
         public override void Configure(IApplicationBuilder builder, IEndpointRouteBuilder routes, IServiceProvider serviceProvider)

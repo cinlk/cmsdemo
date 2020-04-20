@@ -67,20 +67,43 @@ namespace articleModule.Controllers
 
         }
 
+        // 分页 TODO
 
-        public  async Task<JsonResult> Article()
+       [HttpGet]
+        public  async Task<JsonResult> Article(int  pageIndex = 1)
         {
 
 
+            // limit = 10
+            var pageSize = 10;
 
-            _logger.LogInformation("============> start query");
+            pageIndex = (pageIndex - 1) * (pageSize);
 
+
+            var totalPages = 0;
+          
+
+
+
+
+            _logger.LogInformation("============> start query {pageindex}",  pageIndex);
+
+            
             try
             {
+                var count =  _dbCon.ml.Query<int>("select count(1) from document as d join  (select a.id, a.documentId from articleContentIndex as a left join contentItemIndex " +
+                    "as c on c.contentItemid = a.contentItemId where  c.published = true) as m on d.id = m.documentid ").Single();
+                totalPages = (int)Math.Ceiling((double)count /pageSize);
+                _logger.LogInformation("============> target {totalPages} ", totalPages);
+
+
                 // 根据contentitemindex published 的文章
                 var list = await _dbCon.ml.QueryAsync<demoDocument>("select d.id, d.type, d.content  from document as d join " +
                     "(select a.id, a.documentId from articleContentIndex as a left join contentItemIndex as c " +
-                    "on c.contentItemid = a.contentItemId where  c.published = true) as m on d.id = m.documentid", null);
+                    "on c.contentItemid = a.contentItemId where  c.published = true) as m on d.id = m.documentid limit @pageSize offset @offset", new {
+                         pageSize = pageSize,
+                         offset = pageIndex,
+                    });
 
                 foreach (var i in list)
                 {

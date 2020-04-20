@@ -25,3 +25,6 @@
 /Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/Razor/Views/ArticleModel.cshtml.g.cs
 /Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/Razor/Views/ArticleModel.Edit.cshtml.g.cs
+/Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/Razor/Views/NavigationItemText-persons.Id.cshtml.g.cs
+/Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/Razor/Views/Admin/ArticleList.cshtml.g.cs
+/Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/Razor/Views/Admin/Index.cshtml.g.cs

@@ -1,0 +1,326 @@
+2020-04-17 13:34:46.0061|None|0HLV222SG4GB7:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/news/newsContent/AllNews   
+2020-04-17 13:34:46.1934|Default|0HLV222SG4GB7:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:34:46.2950|Default|0HLV222SG4GB7:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'news.Controllers.NewsContentController.AllNews (news)' 
+2020-04-17 13:34:46.4620|Default|0HLV222SG4GB7:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "news", action = "AllNews", controller = "NewsContent"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] AllNews() on controller news.Controllers.NewsContentController (news). 
+2020-04-17 13:34:46.6507|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start building shape table 
+2020-04-17 13:34:46.6743|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering shapes 
+2020-04-17 13:34:46.6816|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-17 13:34:46.6841|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-17 13:34:46.6873|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-17 13:34:46.6882|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-17 13:34:46.6882|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-17 13:34:46.6882|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-17 13:34:46.6893|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-17 13:34:46.6901|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-17 13:34:46.6901|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-17 13:34:46.6901|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-17 13:34:46.6901|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering shapes 
+2020-04-17 13:34:46.7207|Default|0HLV222SG4GB7:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done building shape table 
+2020-04-17 13:34:46.7475|Default|0HLV222SG4GB7:00000001||Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|INFO|Executing JsonResult, writing value of type 'System.Collections.ArrayList'. 
+2020-04-17 13:34:46.7946|Default|0HLV222SG4GB7:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action news.Controllers.NewsContentController.AllNews (news) in 332.2206ms 
+2020-04-17 13:34:46.7958|Default|0HLV222SG4GB7:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'news.Controllers.NewsContentController.AllNews (news)' 
+2020-04-17 13:34:46.7992|Default|0HLV222SG4GB7:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 802.8054000000001ms 200 application/json; charset=utf-8 
+2020-04-17 13:55:35.2157|None|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/admin   
+2020-04-17 13:55:35.2220|Default|0HLV222SG4GB8:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:35.7859|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:35.7868|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Admin.Controllers.AdminController.Index (OrchardCore.Admin)' 
+2020-04-17 13:55:35.8000|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Admin", action = "Index", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OrchardCore.Admin.Controllers.AdminController (OrchardCore.Admin). 
+2020-04-17 13:55:35.8015|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:37.7656|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Index. 
+2020-04-17 13:55:38.5030|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5033|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5033|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5042|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5042|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5042|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5052|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5052|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5065|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5065|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5065|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5065|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5065|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5065|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5065|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5065|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5072|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5082|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:38.5518|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Index executed in 2741.2146000000002ms. 
+2020-04-17 13:55:38.5518|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Admin.Controllers.AdminController.Index (OrchardCore.Admin) in 2751.3920000000003ms 
+2020-04-17 13:55:38.5523|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Admin.Controllers.AdminController.Index (OrchardCore.Admin)' 
+2020-04-17 13:55:38.5545|Default|0HLV222SG4GB8:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3340.1061ms 200 text/html; charset=utf-8 
+2020-04-17 13:55:38.5956|None|0HLV222SG4GB8:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Resources/Styles/jquery-ui.css   
+2020-04-17 13:55:38.5982|None|0HLV222SG4GB9:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/TheAdmin/Styles/TheAdmin.css   
+2020-04-17 13:55:38.5997|Default|0HLV222SG4GB9:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:38.5997|Default|0HLV222SG4GB8:00000002||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:38.6130|None|0HLV222SG4GBA:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Resources/Scripts/jquery.js   
+2020-04-17 13:55:38.6130|None|0HLV222SG4GBB:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Resources/Scripts/jquery-ui.js   
+2020-04-17 13:55:38.6136|Default|0HLV222SG4GBA:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:38.6136|Default|0HLV222SG4GBB:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:38.6136|None|0HLV222SG4GBC:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Resources/Scripts/jquery-ui-i18n.js   
+2020-04-17 13:55:38.6143|Default|0HLV222SG4GBC:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:38.6165|None|0HLV222SG4GBD:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/TheAdmin/Scripts/TheAdmin.js   
+2020-04-17 13:55:38.6165|Default|0HLV222SG4GBD:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:38.6304|Default|0HLV222SG4GB8:00000002||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Resources/Styles/jquery-ui.css'. Physical path: 'N/A' 
+2020-04-17 13:55:38.6304|Default|0HLV222SG4GB8:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 35.2787ms 200 text/css 
+2020-04-17 13:55:38.6304|Default|0HLV222SG4GBC:00000001||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Resources/Scripts/jquery-ui-i18n.js'. Physical path: 'N/A' 
+2020-04-17 13:55:38.6317|Default|0HLV222SG4GBC:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 18.0653ms 200 application/javascript 
+2020-04-17 13:55:38.6396|Default|0HLV222SG4GBD:00000001||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/TheAdmin/Scripts/TheAdmin.js'. Physical path: 'N/A' 
+2020-04-17 13:55:38.6396|Default|0HLV222SG4GBA:00000001||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Resources/Scripts/jquery.js'. Physical path: 'N/A' 
+2020-04-17 13:55:38.6396|Default|0HLV222SG4GBD:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 23.538700000000002ms 200 application/javascript 
+2020-04-17 13:55:38.6396|Default|0HLV222SG4GBA:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 27.0122ms 200 application/javascript 
+2020-04-17 13:55:38.6405|Default|0HLV222SG4GBB:00000001||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Resources/Scripts/jquery-ui.js'. Physical path: 'N/A' 
+2020-04-17 13:55:38.6405|Default|0HLV222SG4GBB:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 27.642200000000003ms 200 application/javascript 
+2020-04-17 13:55:38.6421|Default|0HLV222SG4GB9:00000001||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/TheAdmin/Styles/TheAdmin.css'. Physical path: 'N/A' 
+2020-04-17 13:55:38.6423|Default|0HLV222SG4GB9:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 44.182900000000004ms 200 text/css 
+2020-04-17 13:55:38.6709|None|0HLV222SG4GB9:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/TheAdmin/logo.png   
+2020-04-17 13:55:38.6717|Default|0HLV222SG4GB9:00000002||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:38.6723|Default|0HLV222SG4GB9:00000002||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/TheAdmin/logo.png'. Physical path: 'N/A' 
+2020-04-17 13:55:38.6723|Default|0HLV222SG4GB9:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 1.4817ms 200 image/png 
+2020-04-17 13:55:46.3495|None|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Features/Admin/Features   
+2020-04-17 13:55:46.3502|Default|0HLV222SG4GB9:00000003||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:55:46.3542|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Features.Controllers.AdminController.Features (OrchardCore.Features)' 
+2020-04-17 13:55:46.3630|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Features", action = "Features", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Features() on controller OrchardCore.Features.Controllers.AdminController (OrchardCore.Features). 
+2020-04-17 13:55:46.3657|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:46.3721|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.3691|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Features. 
+2020-04-17 13:55:47.4329|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4329|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4332|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4332|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4332|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4332|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4332|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4332|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4332|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4332|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4342|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4342|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4342|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4342|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4342|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4342|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4342|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4342|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4352|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:55:47.4647|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Features executed in 1016.9962ms. 
+2020-04-17 13:55:47.4666|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Features.Controllers.AdminController.Features (OrchardCore.Features) in 1103.2388ms 
+2020-04-17 13:55:47.4666|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Features.Controllers.AdminController.Features (OrchardCore.Features)' 
+2020-04-17 13:55:47.4673|Default|0HLV222SG4GB9:00000003||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 1117.8237000000001ms 200 text/html; charset=utf-8 
+2020-04-17 13:56:02.5912|None|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/Admin/Contents/ContentTypes/NewsModel/Create   
+2020-04-17 13:56:02.5912|Default|0HLV222SG4GB9:00000004||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:02.5945|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Contents.Controllers.AdminController.Create (OrchardCore.Contents)' 
+2020-04-17 13:56:02.6048|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Contents", action = "Create", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(System.String) on controller OrchardCore.Contents.Controllers.AdminController (OrchardCore.Contents). 
+2020-04-17 13:56:02.6072|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:02.6105|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:02.6105|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:02.6288|Default|0HLV222SG4GB9:00000004||news.Drivers.NewsModelPartDriver|INFO|-----++++++++++++----------> 
+2020-04-17 13:56:03.3826|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Create. 
+2020-04-17 13:56:04.4585|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4585|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4585|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4585|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4585|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4592|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4592|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4592|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4592|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4592|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4592|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4592|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4602|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4613|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4613|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4613|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4613|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4613|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.4698|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Create executed in 1811.51ms. 
+2020-04-17 13:56:04.4702|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Contents.Controllers.AdminController.Create (OrchardCore.Contents) in 1865.0856ms 
+2020-04-17 13:56:04.4702|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Contents.Controllers.AdminController.Create (OrchardCore.Contents)' 
+2020-04-17 13:56:04.4702|Default|0HLV222SG4GB9:00000004||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 1879.817ms 200 text/html; charset=utf-8 
+2020-04-17 13:56:04.4916|None|0HLV222SG4GB9:00000005||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Resources/Styles/trumbowyg.css   
+2020-04-17 13:56:04.4923|Default|0HLV222SG4GB9:00000005||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.4943|Default|0HLV222SG4GB9:00000005||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Resources/Styles/trumbowyg.css'. Physical path: 'N/A' 
+2020-04-17 13:56:04.4943|Default|0HLV222SG4GB9:00000005||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3.4906ms 200 text/css 
+2020-04-17 13:56:04.4952|None|0HLV222SG4GBB:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Styles/media.css   
+2020-04-17 13:56:04.4952|Default|0HLV222SG4GBB:00000002||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.4970|None|0HLV222SG4GBD:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Resources/Scripts/trumbowyg.js   
+2020-04-17 13:56:04.4974|Default|0HLV222SG4GBB:00000002||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Media/Styles/media.css'. Physical path: 'N/A' 
+2020-04-17 13:56:04.4974|Default|0HLV222SG4GBD:00000002||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.4983|Default|0HLV222SG4GBB:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 2.8109ms 200 text/css 
+2020-04-17 13:56:04.4983|None|0HLV222SG4GBA:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Scripts/media.js   
+2020-04-17 13:56:04.4994|Default|0HLV222SG4GBA:00000002||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.5026|Default|0HLV222SG4GBD:00000002||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Resources/Scripts/trumbowyg.js'. Physical path: 'N/A' 
+2020-04-17 13:56:04.5026|Default|0HLV222SG4GBA:00000002||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Media/Scripts/media.js'. Physical path: 'N/A' 
+2020-04-17 13:56:04.5032|Default|0HLV222SG4GBD:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 6.1821ms 200 application/javascript 
+2020-04-17 13:56:04.5032|Default|0HLV222SG4GBA:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 4.840800000000001ms 200 application/javascript 
+2020-04-17 13:56:04.6565|None|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Admin/MediaApplication   
+2020-04-17 13:56:04.6565|Default|0HLV222SG4GBA:00000003||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.6584|Default|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Media.Controllers.AdminController.MediaApplication (OrchardCore.Media)' 
+2020-04-17 13:56:04.6592|Default|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Media", action = "MediaApplication", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MediaApplication() on controller OrchardCore.Media.Controllers.AdminController (OrchardCore.Media). 
+2020-04-17 13:56:04.6592|Default|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.6641|Default|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view MediaApplication. 
+2020-04-17 13:56:04.6653|Default|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view MediaApplication executed in 3.9104ms. 
+2020-04-17 13:56:04.6653|Default|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Media.Controllers.AdminController.MediaApplication (OrchardCore.Media) in 6.1812000000000005ms 
+2020-04-17 13:56:04.6653|Default|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Media.Controllers.AdminController.MediaApplication (OrchardCore.Media)' 
+2020-04-17 13:56:04.6662|Default|0HLV222SG4GBA:00000003||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 9.654ms 200 text/html; charset=utf-8 
+2020-04-17 13:56:04.7186|None|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Admin/GetFolders?path=   
+2020-04-17 13:56:04.7194|Default|0HLV222SG4GBA:00000004||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.7214|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media)' 
+2020-04-17 13:56:04.7222|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Media", action = "GetFolders", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[OrchardCore.FileStorage.IFileStoreEntry]]] GetFolders(System.String) on controller OrchardCore.Media.Controllers.AdminController (OrchardCore.Media). 
+2020-04-17 13:56:04.7222|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7222|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7258|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7258|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7258|None|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Admin/GetMediaItems?path=images   
+2020-04-17 13:56:04.7263|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7263|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7263|Default|0HLV222SG4GBD:00000003||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.7281|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Media.Controllers.AdminController.GetMediaItems (OrchardCore.Media)' 
+2020-04-17 13:56:04.7289|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Media", action = "GetMediaItems", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.Object]]] GetMediaItems(System.String) on controller OrchardCore.Media.Controllers.AdminController (OrchardCore.Media). 
+2020-04-17 13:56:04.7296|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7296|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7296|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7302|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7302|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing ObjectResult, writing value of type 'OrchardCore.FileStorage.IFileStoreEntry[]'. 
+2020-04-17 13:56:04.7312|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7312|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7326|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing ObjectResult, writing value of type 'System.Object[]'. 
+2020-04-17 13:56:04.7326|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media) in 9.9533ms 
+2020-04-17 13:56:04.7326|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media)' 
+2020-04-17 13:56:04.7335|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Media.Controllers.AdminController.GetMediaItems (OrchardCore.Media) in 4.341200000000001ms 
+2020-04-17 13:56:04.7335|Default|0HLV222SG4GBA:00000004||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 15.021500000000001ms 200 application/json; charset=utf-8 
+2020-04-17 13:56:04.7335|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Media.Controllers.AdminController.GetMediaItems (OrchardCore.Media)' 
+2020-04-17 13:56:04.7335|Default|0HLV222SG4GBD:00000003||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 7.9752ms 200 application/json; charset=utf-8 
+2020-04-17 13:56:04.7446|None|0HLV222SG4GBD:00000004||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Resources/Scripts/ui/icons.svg application/x-www-form-urlencoded; charset=UTF-8  
+2020-04-17 13:56:04.7446|Default|0HLV222SG4GBD:00000004||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.7456|Default|0HLV222SG4GBD:00000004||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/OrchardCore.Resources/Scripts/ui/icons.svg'. Physical path: 'N/A' 
+2020-04-17 13:56:04.7456|Default|0HLV222SG4GBD:00000004||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 1.3278ms 200 image/svg+xml 
+2020-04-17 13:56:04.7907|None|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Admin/GetFolders?path=images   
+2020-04-17 13:56:04.7907|Default|0HLV222SG4GBD:00000005||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 13:56:04.7927|Default|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media)' 
+2020-04-17 13:56:04.7934|Default|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Media", action = "GetFolders", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[OrchardCore.FileStorage.IFileStoreEntry]]] GetFolders(System.String) on controller OrchardCore.Media.Controllers.AdminController (OrchardCore.Media). 
+2020-04-17 13:56:04.7934|Default|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7934|Default|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 13:56:04.7948|Default|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing ObjectResult, writing value of type 'OrchardCore.FileStorage.IFileStoreEntry[]'. 
+2020-04-17 13:56:04.7953|Default|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media) in 1.639ms 
+2020-04-17 13:56:04.7953|Default|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media)' 
+2020-04-17 13:56:04.7953|Default|0HLV222SG4GBD:00000005||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 5.0033ms 200 application/json; charset=utf-8 
+2020-04-17 17:37:35.7310|None|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/Admin/Contents/ContentTypes/NewsModel/Create   
+2020-04-17 17:37:35.7734|Default|0HLV222SG4GBE:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 17:37:36.0119|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Contents.Controllers.AdminController.Create (OrchardCore.Contents)' 
+2020-04-17 17:37:36.0417|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Contents", action = "Create", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(System.String) on controller OrchardCore.Contents.Controllers.AdminController (OrchardCore.Contents). 
+2020-04-17 17:37:36.0573|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.0711|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.0711|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.1199|Default|0HLV222SG4GBE:00000001||news.Drivers.NewsModelPartDriver|INFO|-----++++++++++++----------> 
+2020-04-17 17:37:36.1784|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view Create. 
+2020-04-17 17:37:36.2657|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2657|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2657|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2657|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2657|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2665|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2665|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2665|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2678|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2678|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2678|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2678|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2678|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2678|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2678|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2685|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2685|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2685|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2685|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2685|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2695|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2695|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2695|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2695|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2695|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2695|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.2695|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.3189|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view Create executed in 178.02290000000002ms. 
+2020-04-17 17:37:36.3189|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Contents.Controllers.AdminController.Create (OrchardCore.Contents) in 276.0082ms 
+2020-04-17 17:37:36.3200|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Contents.Controllers.AdminController.Create (OrchardCore.Contents)' 
+2020-04-17 17:37:36.3276|Default|0HLV222SG4GBE:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 601.9933ms 200 text/html; charset=utf-8 
+2020-04-17 17:37:36.4566|None|0HLV222SG4GBE:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/TheAdmin/Styles/TheAdmin.css   
+2020-04-17 17:37:36.4580|Default|0HLV222SG4GBE:00000002||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 17:37:36.4833|Default|0HLV222SG4GBE:00000002||Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/TheAdmin/Styles/TheAdmin.css'. Physical path: 'N/A' 
+2020-04-17 17:37:36.4839|Default|0HLV222SG4GBE:00000002||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 27.286800000000003ms 200 text/css 
+2020-04-17 17:37:36.7377|None|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Admin/MediaApplication   
+2020-04-17 17:37:36.7377|Default|0HLV222SG4GBE:00000003||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 17:37:36.7425|Default|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Media.Controllers.AdminController.MediaApplication (OrchardCore.Media)' 
+2020-04-17 17:37:36.7467|Default|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Media", action = "MediaApplication", controller = "Admin"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult MediaApplication() on controller OrchardCore.Media.Controllers.AdminController (OrchardCore.Media). 
+2020-04-17 17:37:36.7467|Default|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.7835|Default|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executing ViewResult, running view MediaApplication. 
+2020-04-17 17:37:36.7886|Default|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|INFO|Executed ViewResult - view MediaApplication executed in 39.481500000000004ms. 
+2020-04-17 17:37:36.7886|Default|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Media.Controllers.AdminController.MediaApplication (OrchardCore.Media) in 42.5292ms 
+2020-04-17 17:37:36.7902|Default|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Media.Controllers.AdminController.MediaApplication (OrchardCore.Media)' 
+2020-04-17 17:37:36.7931|Default|0HLV222SG4GBE:00000003||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 53.345200000000006ms 200 text/html; charset=utf-8 
+2020-04-17 17:37:36.8816|None|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Admin/GetFolders?path=   
+2020-04-17 17:37:36.8816|Default|0HLV222SG4GBE:00000004||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 17:37:36.8842|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media)' 
+2020-04-17 17:37:36.8851|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Media", action = "GetFolders", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[OrchardCore.FileStorage.IFileStoreEntry]]] GetFolders(System.String) on controller OrchardCore.Media.Controllers.AdminController (OrchardCore.Media). 
+2020-04-17 17:37:36.8879|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.8879|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.8900|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.8900|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.8900|None|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Admin/GetMediaItems?path=images   
+2020-04-17 17:37:36.8900|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.8915|Default|0HLV222SG4GBF:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 17:37:36.8916|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.8934|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing ObjectResult, writing value of type 'OrchardCore.FileStorage.IFileStoreEntry[]'. 
+2020-04-17 17:37:36.8967|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media) in 11.3747ms 
+2020-04-17 17:37:36.8967|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media)' 
+2020-04-17 17:37:36.8967|Default|0HLV222SG4GBE:00000004||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 15.727500000000001ms 200 application/json; charset=utf-8 
+2020-04-17 17:37:36.8989|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Media.Controllers.AdminController.GetMediaItems (OrchardCore.Media)' 
+2020-04-17 17:37:36.9002|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Media", action = "GetMediaItems", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.Object]]] GetMediaItems(System.String) on controller OrchardCore.Media.Controllers.AdminController (OrchardCore.Media). 
+2020-04-17 17:37:36.9008|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.9008|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.9008|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.9015|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.9015|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.9026|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.9035|None|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/OrchardCore.Media/Admin/GetFolders?path=images   
+2020-04-17 17:37:36.9035|Default|0HLV222SG4GBE:00000005||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-17 17:37:36.9035|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing ObjectResult, writing value of type 'System.Object[]'. 
+2020-04-17 17:37:36.9035|Default|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media)' 
+2020-04-17 17:37:36.9035|Default|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "OrchardCore.Media", action = "GetFolders", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[OrchardCore.FileStorage.IFileStoreEntry]]] GetFolders(System.String) on controller OrchardCore.Media.Controllers.AdminController (OrchardCore.Media). 
+2020-04-17 17:37:36.9047|Default|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.9047|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Media.Controllers.AdminController.GetMediaItems (OrchardCore.Media) in 4.1373ms 
+2020-04-17 17:37:36.9047|Default|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization was successful. 
+2020-04-17 17:37:36.9047|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Media.Controllers.AdminController.GetMediaItems (OrchardCore.Media)' 
+2020-04-17 17:37:36.9047|Default|0HLV222SG4GBF:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 14.6835ms 200 application/json; charset=utf-8 
+2020-04-17 17:37:36.9047|Default|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing ObjectResult, writing value of type 'OrchardCore.FileStorage.IFileStoreEntry[]'. 
+2020-04-17 17:37:36.9056|Default|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media) in 0.994ms 
+2020-04-17 17:37:36.9056|Default|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'OrchardCore.Media.Controllers.AdminController.GetFolders (OrchardCore.Media)' 
+2020-04-17 17:37:36.9056|Default|0HLV222SG4GBE:00000005||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 2.3939ms 200 application/json; charset=utf-8 

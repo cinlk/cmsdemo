@@ -23,10 +23,16 @@
     <EmbeddedResource Remove="Views\_ViewImports.cshtml" />
     <EmbeddedResource Remove="Views\Indexdwqdwqd.cshtml" />
     <EmbeddedResource Remove="Views\dwdqwdwq.cshtml" />
+    <EmbeddedResource Remove="Views\IndexPage\Index.cshtml" />
+    <EmbeddedResource Remove="Views\IndexPage\ArticleList.cshtml" />
+    <EmbeddedResource Remove="Views\NavigationIemText_modules.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Article\Article.cshtml" />
     <Content Include="Views\_ViewImports.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\ArticleList.cshtml" />
+    <Content Include="Views\NavigationItemText-persons.Id.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Article\" />
@@ -35,5 +41,7 @@
     <Folder Include="Indexes\" />
     <Folder Include="Drivers\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\Admin\" />
+    <Folder Include="Navigation\" />
   </ItemGroup>
 </Project>
