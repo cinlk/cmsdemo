@@ -1,0 +1,23 @@
+﻿@model IEnumerable<dynamic>
+
+<h1>@RenderTitleSegments(T["News List"])</h1>
+
+@if (Model.Any())
+{
+    <ul class="list-group">
+        @foreach (var contentItem in Model)
+        {
+            <li class="list-group-item">
+                @await DisplayAsync(contentItem)
+            </li>
+        }
+    </ul>
+}else
+{
+    <div class="alert alert-info">
+        @T["No result found."]
+    </div>
+
+}
+
+

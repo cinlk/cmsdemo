@@ -1,0 +1,30 @@
+@model NewsViewModel
+@using news.ViewModels;
+
+@* Nothing special here regarding the editor fields. However, notice that the Biography (ContentField) editor is not
+    here, because (as mentioned) it has its own editor and display shape so no need to worry about that. *@
+
+<fieldset class="form-group" asp-validation-class-for="Title">
+    <label asp-for="Title">@T["Title"] <span asp-validation-for="Title"></span></label>
+    <input asp-for="Title" class="form-control" />
+    <span class="hint">@T["Article's name"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Authtor">
+    <label asp-for="Authtor">@T["Authtor Name"] <span asp-validation-for="Authtor"></span></label>
+    <input asp-for="Authtor" class="form-control" />
+    <span class="hint">@T["Article's author name"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="CreatedAt">
+    <label asp-for="CreatedAt">@T["Created At"] <span asp-validation-for="CreatedAt"></span></label>
+    <input asp-for="CreatedAt" type="date" class="form-control" />
+
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="CoverImgUrl">
+    <label asp-for="CoverImgUrl">@T["Cover Image"] <span asp-validation-for="CoverImgUrl"></span></label>
+    <input asp-for="CoverImgUrl" type="url" class="form-control" />
+    <span class="hint">@T["cover image url"]</span>
+</fieldset>

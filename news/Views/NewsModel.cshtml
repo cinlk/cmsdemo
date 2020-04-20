@@ -1,0 +1,7 @@
+﻿@model ShapeViewModel<NewsModel>
+
+<div><strong>@Model.Value.Title.</strong></div>
+<div>@T["Author Name: {0}", Model.Value.Authtor]</div>
+<div>@T["Create At: {0}", Model.Value.CreatedAt?.ToShortDateString()]</div>
+<div>@T["Cover Image: {0}", Model.Value.CoverImgUrl]</div>
+
