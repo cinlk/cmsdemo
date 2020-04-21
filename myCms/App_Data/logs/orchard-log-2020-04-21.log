@@ -1,0 +1,812 @@
+2020-04-21 10:19:24.3201||||Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
+2020-04-21 10:19:24.5218||||OrchardCore.Modules.ModularBackgroundService|ERROR|'ModularBackgroundService' is stopping. 
+2020-04-21 10:19:55.4187||||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using '/Users/liangke/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2020-04-21 10:19:55.5547||||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:4000 
+2020-04-21 10:19:55.5559||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-04-21 10:19:55.5559||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-04-21 10:19:55.5563||||Microsoft.Hosting.Lifetime|INFO|Content root path: /Users/liangke/netCoreProject/orchard/develop/myCms 
+2020-04-21 10:20:18.3667|None|0HLV5JA4GNSEJ:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/articleModule/Home/index   
+2020-04-21 10:20:18.3842|None|0HLV5JA4GNSEJ:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Start creation of shells 
+2020-04-21 10:20:18.5187|None|0HLV5JA4GNSEJ:00000001||OrchardCore.Environment.Shell.Builders.ShellContextFactory|INFO|Creating shell context for tenant 'Default' 
+2020-04-21 10:20:19.8005|None|0HLV5JA4GNSEJ:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Done pre-creating and registering shells 
+2020-04-21 10:20:19.8622|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Alias' 
+2020-04-21 10:20:19.8641|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Settings' 
+2020-04-21 10:20:19.8641|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Liquid' 
+2020-04-21 10:20:19.8641|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Contents' 
+2020-04-21 10:20:19.8667|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.ContentTypes' 
+2020-04-21 10:20:19.8685|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.Data.Migration.DataMigrationManager|ERROR|Could not run migrations automatically on 'OrchardCore.Alias' System.InvalidOperationException: Nullable object must have a value.
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364    at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364
+2020-04-21 10:20:19.9744|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-21 10:20:21.1957|Default|0HLV5JA4GNSEJ:00000001||Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+2020-04-21 10:20:21.2158|Default|0HLV5JA4GNSEJ:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:20:21.3062|Default|0HLV5JA4GNSEJ:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "articleModule", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Index() on controller Module1.Controllers.HomeController (articleModule). 
+2020-04-21 10:20:22.1220|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start building shape table 
+2020-04-21 10:20:22.1487|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering shapes 
+2020-04-21 10:20:22.1512|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1527|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1544|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1544|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1574|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1574|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1584|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1584|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1592|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1592|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1592|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1592|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1600|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1600|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1638|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1644|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1650|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1650|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1650|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1650|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1663|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1671|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1703|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1703|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1710|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1710|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1710|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1710|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1722|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1722|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1730|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1730|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1730|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1730|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1730|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1742|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1742|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1742|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1742|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1753|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1753|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1760|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1760|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1760|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1760|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1770|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1770|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1770|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1770|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1781|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1781|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1781|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1781|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1791|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1791|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1791|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1791|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1800|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1800|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1800|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1815|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1820|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1820|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1833|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1833|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1844|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1844|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1851|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1851|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1862|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1862|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1870|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1870|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1880|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1893|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1893|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1893|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1900|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1900|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1900|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1900|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1912|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1912|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:20:22.1912|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:20:22.1921|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering shapes 
+2020-04-21 10:20:22.2197|Default|0HLV5JA4GNSEJ:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done building shape table 
+2020-04-21 10:20:22.2809|Default|0HLV5JA4GNSEJ:00000001||Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|INFO|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType3`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], articleModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-04-21 10:20:22.2957|Default|0HLV5JA4GNSEJ:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Module1.Controllers.HomeController.Index (articleModule) in 986.3308000000001ms 
+2020-04-21 10:20:22.2971|Default|0HLV5JA4GNSEJ:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:20:22.3028|Default|0HLV5JA4GNSEJ:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3938.4880000000003ms 200 application/json; charset=utf-8 
+2020-04-21 10:23:59.0823||||Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
+2020-04-21 10:23:59.1064||||OrchardCore.Modules.ModularBackgroundService|ERROR|'ModularBackgroundService' is stopping. 
+2020-04-21 10:24:18.5234||||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using '/Users/liangke/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2020-04-21 10:24:18.6266||||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:4000 
+2020-04-21 10:24:18.6277||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-04-21 10:24:18.6279||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-04-21 10:24:18.6279||||Microsoft.Hosting.Lifetime|INFO|Content root path: /Users/liangke/netCoreProject/orchard/develop/myCms 
+2020-04-21 10:24:21.3686|None|0HLV5JCCU3H9P:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/articleModule/Home/index   
+2020-04-21 10:24:21.3829|None|0HLV5JCCU3H9P:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Start creation of shells 
+2020-04-21 10:24:21.5655|None|0HLV5JCCU3H9P:00000001||OrchardCore.Environment.Shell.Builders.ShellContextFactory|INFO|Creating shell context for tenant 'Default' 
+2020-04-21 10:24:22.5799|None|0HLV5JCCU3H9P:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Done pre-creating and registering shells 
+2020-04-21 10:24:22.6432|Default|0HLV5JCCU3H9P:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Alias' 
+2020-04-21 10:24:22.6456|Default|0HLV5JCCU3H9P:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Settings' 
+2020-04-21 10:24:22.6463|Default|0HLV5JCCU3H9P:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Liquid' 
+2020-04-21 10:24:22.6463|Default|0HLV5JCCU3H9P:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Contents' 
+2020-04-21 10:24:22.6484|Default|0HLV5JCCU3H9P:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.ContentTypes' 
+2020-04-21 10:24:22.6493|Default|0HLV5JCCU3H9P:00000001||OrchardCore.Data.Migration.DataMigrationManager|ERROR|Could not run migrations automatically on 'OrchardCore.Alias' System.InvalidOperationException: Nullable object must have a value.
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364    at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364
+2020-04-21 10:24:22.7444|Default|0HLV5JCCU3H9P:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-21 10:24:23.9666|Default|0HLV5JCCU3H9P:00000001||Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+2020-04-21 10:24:23.9865|Default|0HLV5JCCU3H9P:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:24:24.0721|Default|0HLV5JCCU3H9P:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "articleModule", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Index() on controller Module1.Controllers.HomeController (articleModule). 
+2020-04-21 10:24:24.8849|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start building shape table 
+2020-04-21 10:24:24.9086|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering shapes 
+2020-04-21 10:24:24.9109|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9125|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9135|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9140|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9162|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9162|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9162|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9171|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9171|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9180|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9180|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9180|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9192|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9199|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9234|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9241|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9241|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9250|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9250|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9250|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9258|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9258|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9298|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9298|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9298|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9312|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9312|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9318|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9318|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9318|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9329|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9329|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9329|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9329|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9329|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9340|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9340|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9340|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9340|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9348|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9348|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9348|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9348|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9359|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9359|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9359|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9359|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9370|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9370|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9370|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9379|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9379|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9379|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9379|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9379|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9391|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9391|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9398|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9398|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9398|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9415|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9419|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9419|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9428|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9428|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9428|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9438|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9438|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9438|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9450|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9450|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9450|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9463|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9463|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9482|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9482|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9489|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9489|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9489|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9502|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9502|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9511|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9511|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:24:24.9520|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:24:24.9520|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering shapes 
+2020-04-21 10:24:24.9805|Default|0HLV5JCCU3H9P:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done building shape table 
+2020-04-21 10:24:25.0416|Default|0HLV5JCCU3H9P:00000001||Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|INFO|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType3`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], articleModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-04-21 10:24:25.0577|Default|0HLV5JCCU3H9P:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Module1.Controllers.HomeController.Index (articleModule) in 982.6876000000001ms 
+2020-04-21 10:24:25.0590|Default|0HLV5JCCU3H9P:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:24:25.0641|Default|0HLV5JCCU3H9P:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3698.2719ms 200 application/json; charset=utf-8 
+2020-04-21 10:25:06.9166||||Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
+2020-04-21 10:25:06.9740||||OrchardCore.Modules.ModularBackgroundService|ERROR|'ModularBackgroundService' is stopping. 
+2020-04-21 10:25:20.4550||||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using '/Users/liangke/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2020-04-21 10:25:20.5990||||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:4000 
+2020-04-21 10:25:20.6001||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-04-21 10:25:20.6003||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-04-21 10:25:20.6003||||Microsoft.Hosting.Lifetime|INFO|Content root path: /Users/liangke/netCoreProject/orchard/develop/myCms 
+2020-04-21 10:25:24.0599|None|0HLV5JCVJS9QB:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/articleModule/Home/index   
+2020-04-21 10:25:24.0760|None|0HLV5JCVJS9QB:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Start creation of shells 
+2020-04-21 10:25:24.2464|None|0HLV5JCVJS9QB:00000001||OrchardCore.Environment.Shell.Builders.ShellContextFactory|INFO|Creating shell context for tenant 'Default' 
+2020-04-21 10:25:25.2724|None|0HLV5JCVJS9QB:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Done pre-creating and registering shells 
+2020-04-21 10:25:25.3376|Default|0HLV5JCVJS9QB:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Alias' 
+2020-04-21 10:25:25.3394|Default|0HLV5JCVJS9QB:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Settings' 
+2020-04-21 10:25:25.3394|Default|0HLV5JCVJS9QB:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Liquid' 
+2020-04-21 10:25:25.3394|Default|0HLV5JCVJS9QB:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Contents' 
+2020-04-21 10:25:25.3421|Default|0HLV5JCVJS9QB:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.ContentTypes' 
+2020-04-21 10:25:25.3428|Default|0HLV5JCVJS9QB:00000001||OrchardCore.Data.Migration.DataMigrationManager|ERROR|Could not run migrations automatically on 'OrchardCore.Alias' System.InvalidOperationException: Nullable object must have a value.
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364    at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364
+2020-04-21 10:25:25.4407|Default|0HLV5JCVJS9QB:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-21 10:25:26.4601|Default|0HLV5JCVJS9QB:00000001||Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+2020-04-21 10:25:26.4786|Default|0HLV5JCVJS9QB:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:25:26.5648|Default|0HLV5JCVJS9QB:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "articleModule", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Index() on controller Module1.Controllers.HomeController (articleModule). 
+2020-04-21 10:25:27.4039|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start building shape table 
+2020-04-21 10:25:27.4332|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering shapes 
+2020-04-21 10:25:27.4353|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4376|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4390|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4397|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4435|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4435|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4447|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4447|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4457|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4464|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4464|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4472|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4472|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4484|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4527|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4535|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4544|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4544|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4553|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4553|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4553|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4568|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4602|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4607|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4607|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4614|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4614|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4614|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4623|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4623|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4632|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4632|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4632|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4632|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4632|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4644|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4644|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4644|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4644|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4644|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4655|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4655|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4655|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4663|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4663|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4663|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4663|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4673|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4673|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4673|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4684|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4684|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4684|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4684|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4684|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4695|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4695|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4695|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4706|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4706|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4720|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4726|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4735|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4735|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4747|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4754|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4754|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4767|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4776|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4776|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4784|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4784|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4795|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4805|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4821|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4825|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4825|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4825|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4833|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4833|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4833|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4843|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4843|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:25:27.4843|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:25:27.4843|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering shapes 
+2020-04-21 10:25:27.5148|Default|0HLV5JCVJS9QB:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done building shape table 
+2020-04-21 10:25:27.5780|Default|0HLV5JCVJS9QB:00000001||Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|INFO|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[<>f__AnonymousType3`2[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], articleModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-04-21 10:25:27.5940|Default|0HLV5JCVJS9QB:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Module1.Controllers.HomeController.Index (articleModule) in 1024.4488000000001ms 
+2020-04-21 10:25:27.5956|Default|0HLV5JCVJS9QB:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:25:27.6024|Default|0HLV5JCVJS9QB:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3544.6895ms 200 application/json; charset=utf-8 
+2020-04-21 10:32:24.0054||||Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
+2020-04-21 10:32:24.0403||||OrchardCore.Modules.ModularBackgroundService|ERROR|'ModularBackgroundService' is stopping. 
+2020-04-21 10:33:40.8989||||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using '/Users/liangke/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2020-04-21 10:33:41.0171||||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:4000 
+2020-04-21 10:33:41.0183||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-04-21 10:33:41.0183||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-04-21 10:33:41.0183||||Microsoft.Hosting.Lifetime|INFO|Content root path: /Users/liangke/netCoreProject/orchard/develop/myCms 
+2020-04-21 10:33:48.8779|None|0HLV5JHM2BGHH:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/articleModule/Home/index   
+2020-04-21 10:33:48.8994|None|0HLV5JHM2BGHH:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Start creation of shells 
+2020-04-21 10:33:49.0572|None|0HLV5JHM2BGHH:00000001||OrchardCore.Environment.Shell.Builders.ShellContextFactory|INFO|Creating shell context for tenant 'Default' 
+2020-04-21 10:33:50.1427|None|0HLV5JHM2BGHH:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Done pre-creating and registering shells 
+2020-04-21 10:33:50.2152|Default|0HLV5JHM2BGHH:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Alias' 
+2020-04-21 10:33:50.2171|Default|0HLV5JHM2BGHH:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Settings' 
+2020-04-21 10:33:50.2177|Default|0HLV5JHM2BGHH:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Liquid' 
+2020-04-21 10:33:50.2177|Default|0HLV5JHM2BGHH:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Contents' 
+2020-04-21 10:33:50.2197|Default|0HLV5JHM2BGHH:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.ContentTypes' 
+2020-04-21 10:33:50.2205|Default|0HLV5JHM2BGHH:00000001||OrchardCore.Data.Migration.DataMigrationManager|ERROR|Could not run migrations automatically on 'OrchardCore.Alias' System.InvalidOperationException: Nullable object must have a value.
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364    at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364
+2020-04-21 10:33:50.3364|Default|0HLV5JHM2BGHH:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-21 10:33:51.4809|Default|0HLV5JHM2BGHH:00000001||Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+2020-04-21 10:33:51.5005|Default|0HLV5JHM2BGHH:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:33:51.5858|Default|0HLV5JHM2BGHH:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "articleModule", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Index() on controller Module1.Controllers.HomeController (articleModule). 
+2020-04-21 10:33:52.3562|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start building shape table 
+2020-04-21 10:33:52.3822|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering shapes 
+2020-04-21 10:33:52.3848|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.3868|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.3887|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.3887|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.3921|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.3928|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.3928|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.3928|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.3942|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.3942|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.3950|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.3950|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.3960|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.3969|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4002|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4009|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4009|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4018|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4018|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4018|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4027|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4027|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4070|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4070|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4070|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4080|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4080|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4080|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4090|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4090|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4100|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4100|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4107|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4107|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4107|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4107|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4107|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4120|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4120|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4120|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4131|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4131|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4137|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4137|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4137|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4137|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4152|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4152|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4152|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4159|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4159|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4159|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4159|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4169|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4169|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4169|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4169|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4180|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4180|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4190|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4200|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4200|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4213|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4213|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4222|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4222|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4222|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4229|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4229|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4229|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4238|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4238|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4247|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4247|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4264|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4264|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4268|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4268|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4268|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4268|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4278|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4278|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4278|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:33:52.4288|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:33:52.4288|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering shapes 
+2020-04-21 10:33:52.4537|Default|0HLV5JHM2BGHH:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done building shape table 
+2020-04-21 10:33:52.5111|Default|0HLV5JHM2BGHH:00000001||Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|INFO|Executing JsonResult, writing value of type 'System.Int32'. 
+2020-04-21 10:33:52.5210|Default|0HLV5JHM2BGHH:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Module1.Controllers.HomeController.Index (articleModule) in 931.8138ms 
+2020-04-21 10:33:52.5222|Default|0HLV5JHM2BGHH:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:33:52.5265|Default|0HLV5JHM2BGHH:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3650.7753000000002ms 200 application/json; charset=utf-8 
+2020-04-21 10:56:18.1397||||Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
+2020-04-21 10:56:18.2137||||OrchardCore.Modules.ModularBackgroundService|ERROR|'ModularBackgroundService' is stopping. 
+2020-04-21 10:56:43.8700||||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using '/Users/liangke/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2020-04-21 10:56:44.0309||||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:4000 
+2020-04-21 10:56:44.0321||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-04-21 10:56:44.0321||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-04-21 10:56:44.0321||||Microsoft.Hosting.Lifetime|INFO|Content root path: /Users/liangke/netCoreProject/orchard/develop/myCms 
+2020-04-21 10:56:52.0685|None|0HLV5JUI9F5DL:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/articleModule/Home/index   
+2020-04-21 10:56:52.0803|None|0HLV5JUI9F5DL:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Start creation of shells 
+2020-04-21 10:56:52.2016|None|0HLV5JUI9F5DL:00000001||OrchardCore.Environment.Shell.Builders.ShellContextFactory|INFO|Creating shell context for tenant 'Default' 
+2020-04-21 10:56:53.2246|None|0HLV5JUI9F5DL:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Done pre-creating and registering shells 
+2020-04-21 10:56:53.3141|Default|0HLV5JUI9F5DL:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Alias' 
+2020-04-21 10:56:53.3159|Default|0HLV5JUI9F5DL:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Settings' 
+2020-04-21 10:56:53.3159|Default|0HLV5JUI9F5DL:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Liquid' 
+2020-04-21 10:56:53.3159|Default|0HLV5JUI9F5DL:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Contents' 
+2020-04-21 10:56:53.3183|Default|0HLV5JUI9F5DL:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.ContentTypes' 
+2020-04-21 10:56:53.3189|Default|0HLV5JUI9F5DL:00000001||OrchardCore.Data.Migration.DataMigrationManager|ERROR|Could not run migrations automatically on 'OrchardCore.Alias' System.InvalidOperationException: Nullable object must have a value.
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364    at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364
+2020-04-21 10:56:53.4343|Default|0HLV5JUI9F5DL:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-21 10:56:54.8190|Default|0HLV5JUI9F5DL:00000001||Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+2020-04-21 10:56:54.8397|Default|0HLV5JUI9F5DL:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:56:54.9250|Default|0HLV5JUI9F5DL:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "articleModule", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Index() on controller Module1.Controllers.HomeController (articleModule). 
+2020-04-21 10:56:55.7908|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start building shape table 
+2020-04-21 10:56:55.8159|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering shapes 
+2020-04-21 10:56:55.8181|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8193|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8203|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8203|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8228|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8231|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8231|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8231|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8244|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8249|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8249|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8249|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8249|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8265|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8295|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8302|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8311|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8311|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8318|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8318|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8318|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8331|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8368|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8374|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8374|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8379|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8379|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8379|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8389|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8389|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8389|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8402|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8402|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8409|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8409|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8409|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8418|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8418|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8418|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8431|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8438|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8438|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8451|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8451|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8451|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8462|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8462|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8470|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8470|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8470|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8481|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8481|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8481|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8481|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8489|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8489|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8489|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8489|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8501|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8501|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8512|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8512|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8522|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8522|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8529|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8529|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8529|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8529|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8541|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8541|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8541|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8549|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8549|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8562|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8578|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8578|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8578|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8590|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8590|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8601|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8601|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8615|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8620|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 10:56:55.8620|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 10:56:55.8632|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering shapes 
+2020-04-21 10:56:55.8883|Default|0HLV5JUI9F5DL:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done building shape table 
+2020-04-21 10:56:55.9478|Default|0HLV5JUI9F5DL:00000001||Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|INFO|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[YesSql.Document, YesSql.Abstractions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=51cdb8c1938e4789]]'. 
+2020-04-21 10:56:55.9614|Default|0HLV5JUI9F5DL:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Module1.Controllers.HomeController.Index (articleModule) in 1032.2594000000001ms 
+2020-04-21 10:56:55.9626|Default|0HLV5JUI9F5DL:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 10:56:55.9678|Default|0HLV5JUI9F5DL:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3901.1456000000003ms 200 application/json; charset=utf-8 
+2020-04-21 11:10:48.2248||||Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
+2020-04-21 11:10:48.2761||||OrchardCore.Modules.ModularBackgroundService|ERROR|'ModularBackgroundService' is stopping. 
+2020-04-21 11:11:03.4997||||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using '/Users/liangke/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2020-04-21 11:11:03.6691||||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:4000 
+2020-04-21 11:11:03.6705||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-04-21 11:11:03.6705||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-04-21 11:11:03.6705||||Microsoft.Hosting.Lifetime|INFO|Content root path: /Users/liangke/netCoreProject/orchard/develop/myCms 
+2020-04-21 11:11:07.1316|None|0HLV5K6H3J295:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/articleModule/Home/index   
+2020-04-21 11:11:07.1466|None|0HLV5K6H3J295:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Start creation of shells 
+2020-04-21 11:11:07.2847|None|0HLV5K6H3J295:00000001||OrchardCore.Environment.Shell.Builders.ShellContextFactory|INFO|Creating shell context for tenant 'Default' 
+2020-04-21 11:11:08.3160|None|0HLV5K6H3J295:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Done pre-creating and registering shells 
+2020-04-21 11:11:08.4096|Default|0HLV5K6H3J295:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Alias' 
+2020-04-21 11:11:08.4118|Default|0HLV5K6H3J295:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Settings' 
+2020-04-21 11:11:08.4127|Default|0HLV5K6H3J295:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Liquid' 
+2020-04-21 11:11:08.4127|Default|0HLV5K6H3J295:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Contents' 
+2020-04-21 11:11:08.4160|Default|0HLV5K6H3J295:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.ContentTypes' 
+2020-04-21 11:11:08.4169|Default|0HLV5K6H3J295:00000001||OrchardCore.Data.Migration.DataMigrationManager|ERROR|Could not run migrations automatically on 'OrchardCore.Alias' System.InvalidOperationException: Nullable object must have a value.
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364    at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364
+2020-04-21 11:11:08.5475|Default|0HLV5K6H3J295:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-21 11:11:09.6658|Default|0HLV5K6H3J295:00000001||Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+2020-04-21 11:11:09.6837|Default|0HLV5K6H3J295:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 11:11:09.7669|Default|0HLV5K6H3J295:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "articleModule", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Index() on controller Module1.Controllers.HomeController (articleModule). 
+2020-04-21 11:11:10.5448|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start building shape table 
+2020-04-21 11:11:10.5697|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering shapes 
+2020-04-21 11:11:10.5718|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5729|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5738|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5738|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5763|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5763|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5763|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5763|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5774|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5774|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5774|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5774|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5783|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5783|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5818|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5823|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5823|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5832|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5832|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5832|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5832|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5844|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5879|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5883|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5883|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5883|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5893|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5893|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5893|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5907|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5914|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5914|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5914|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5924|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5924|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5924|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5932|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5932|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5932|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5932|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5943|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5943|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5943|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5954|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5954|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5954|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5964|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5964|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5964|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5973|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5973|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5983|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5983|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5983|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5983|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5983|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5994|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.5994|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.5994|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6004|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6012|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6012|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6012|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6023|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6023|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6032|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6032|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6032|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6032|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6044|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6044|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6044|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6055|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6055|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6075|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6075|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6075|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6084|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6084|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6084|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6092|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6092|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6092|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:11:10.6103|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:11:10.6103|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering shapes 
+2020-04-21 11:11:10.6334|Default|0HLV5K6H3J295:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done building shape table 
+2020-04-21 11:11:10.6934|Default|0HLV5K6H3J295:00000001||Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|INFO|Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[YesSql.Document, YesSql.Abstractions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=51cdb8c1938e4789]]'. 
+2020-04-21 11:11:10.7068|Default|0HLV5K6H3J295:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Module1.Controllers.HomeController.Index (articleModule) in 936.1030000000001ms 
+2020-04-21 11:11:10.7080|Default|0HLV5K6H3J295:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 11:11:10.7130|Default|0HLV5K6H3J295:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3584.5727ms 200 application/json; charset=utf-8 
+2020-04-21 11:13:22.2867||||Microsoft.Hosting.Lifetime|INFO|Application is shutting down... 
+2020-04-21 11:13:22.3092||||OrchardCore.Modules.ModularBackgroundService|ERROR|'ModularBackgroundService' is stopping. 
+2020-04-21 11:13:36.9529||||Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|INFO|User profile is available. Using '/Users/liangke/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest. 
+2020-04-21 11:13:37.0781||||Microsoft.Hosting.Lifetime|INFO|Now listening on: http://localhost:4000 
+2020-04-21 11:13:37.0795||||Microsoft.Hosting.Lifetime|INFO|Application started. Press Ctrl+C to shut down. 
+2020-04-21 11:13:37.0795||||Microsoft.Hosting.Lifetime|INFO|Hosting environment: Development 
+2020-04-21 11:13:37.0795||||Microsoft.Hosting.Lifetime|INFO|Content root path: /Users/liangke/netCoreProject/orchard/develop/myCms 
+2020-04-21 11:13:47.2801|None|0HLV5K80RCVOR:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request starting HTTP/1.1 GET http://localhost:4000/articleModule/Home/index   
+2020-04-21 11:13:47.2915|None|0HLV5K80RCVOR:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Start creation of shells 
+2020-04-21 11:13:47.3759|None|0HLV5K80RCVOR:00000001||OrchardCore.Environment.Shell.Builders.ShellContextFactory|INFO|Creating shell context for tenant 'Default' 
+2020-04-21 11:13:48.2736|None|0HLV5K80RCVOR:00000001||OrchardCore.Environment.Shell.ShellHost|INFO|Done pre-creating and registering shells 
+2020-04-21 11:13:48.3309|Default|0HLV5K80RCVOR:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Alias' 
+2020-04-21 11:13:48.3326|Default|0HLV5K80RCVOR:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Settings' 
+2020-04-21 11:13:48.3333|Default|0HLV5K80RCVOR:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Liquid' 
+2020-04-21 11:13:48.3333|Default|0HLV5K80RCVOR:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.Contents' 
+2020-04-21 11:13:48.3351|Default|0HLV5K80RCVOR:00000001||OrchardCore.Data.Migration.DataMigrationManager|INFO|Updating feature 'OrchardCore.ContentTypes' 
+2020-04-21 11:13:48.3359|Default|0HLV5K80RCVOR:00000001||OrchardCore.Data.Migration.DataMigrationManager|ERROR|Could not run migrations automatically on 'OrchardCore.Alias' System.InvalidOperationException: Nullable object must have a value.
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364    at OrchardCore.Data.Migration.DataMigrationManager.UpdateAsync(String featureId)
+   at OrchardCore.Data.Migration.DataMigrationManager.UpdateAllFeaturesAsync() in C:\projects\orchardcore\src\OrchardCore\OrchardCore.Data\Migration\DataMigrationManager.cs:line 364
+2020-04-21 11:13:48.4265|Default|0HLV5K80RCVOR:00000001||OrchardCore.Modules.ModularTenantRouterMiddleware|INFO|Begin Routing Request 
+2020-04-21 11:13:49.4557|Default|0HLV5K80RCVOR:00000001||Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|Identity.Application was not authenticated. Failure message: Unprotect ticket failed 
+2020-04-21 11:13:49.4747|Default|0HLV5K80RCVOR:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executing endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 11:13:49.5516|Default|0HLV5K80RCVOR:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Route matched with {area = "articleModule", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.JsonResult Index() on controller Module1.Controllers.HomeController (articleModule). 
+2020-04-21 11:13:50.0429|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start building shape table 
+2020-04-21 11:13:50.0672|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering shapes 
+2020-04-21 11:13:50.0693|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0706|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0717|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0723|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0749|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0753|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0753|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0753|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0753|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0763|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0763|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0763|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0763|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0777|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0807|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0813|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0813|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0813|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0824|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0824|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0824|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0833|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0865|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0865|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0874|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0874|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0874|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0886|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0886|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0895|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0895|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0906|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0906|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0906|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0913|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0913|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0913|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0913|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0913|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0924|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0924|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0924|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0933|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0933|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0933|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0933|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0945|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0945|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0945|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0945|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0955|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0955|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0955|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0955|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0955|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0965|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0965|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0965|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0976|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0976|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0988|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.0993|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.0993|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1002|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1002|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1002|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1002|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1015|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1015|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1015|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1025|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1025|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1037|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1043|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1062|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1066|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1066|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1075|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1075|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1082|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1082|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1082|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1095|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Start discovering candidate views filenames 
+2020-04-21 11:13:50.1095|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering candidate views filenames 
+2020-04-21 11:13:50.1108|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done discovering shapes 
+2020-04-21 11:13:50.1350|Default|0HLV5K80RCVOR:00000001||OrchardCore.DisplayManagement.Descriptors.DefaultShapeTableManager|INFO|Done building shape table 
+2020-04-21 11:13:50.1941|Default|0HLV5K80RCVOR:00000001||Microsoft.AspNetCore.Mvc.NewtonsoftJson.NewtonsoftJsonResultExecutor|INFO|Executing JsonResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[YesSql.Document, YesSql.Abstractions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=51cdb8c1938e4789]]'. 
+2020-04-21 11:13:50.4562|Default|0HLV5K80RCVOR:00000001||Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|INFO|Executed action Module1.Controllers.HomeController.Index (articleModule) in 901.3444000000001ms 
+2020-04-21 11:13:50.4576|Default|0HLV5K80RCVOR:00000001||Microsoft.AspNetCore.Routing.EndpointMiddleware|INFO|Executed endpoint 'Module1.Controllers.HomeController.Index (articleModule)' 
+2020-04-21 11:13:50.4648|Default|0HLV5K80RCVOR:00000001||Microsoft.AspNetCore.Hosting.Diagnostics|INFO|Request finished in 3186.4381000000003ms 200 application/json; charset=utf-8 

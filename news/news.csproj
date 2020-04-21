@@ -32,6 +32,7 @@
     <EmbeddedResource Remove="Views\_ViewImports.cshtml" />
     <EmbeddedResource Remove="Views\Admin\NewsList.cshtml" />
     <EmbeddedResource Remove="Views\Admin\Index.cshtml" />
+    <EmbeddedResource Remove="Views\NavigationItemText_persons.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\_ViewImports.cshtml" />

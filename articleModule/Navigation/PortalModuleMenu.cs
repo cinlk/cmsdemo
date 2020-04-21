@@ -24,7 +24,7 @@ namespace articleModule.Navigation
                 return Task.CompletedTask;
             }
 
-
+           
             builder.Add(T["orchard modules"], "6", menu =>
 
 
@@ -33,14 +33,14 @@ namespace articleModule.Navigation
                 .Add(T["index-page"], subitem =>
                 subitem.LinkToFirstChild(true)
                 .Add(T["article1"], thirdLevel =>
-                thirdLevel.Action(nameof(AdminController.PublishedArticleList),
+                thirdLevel.Action(nameof(AdminController.Index),
                 "Admin", new { area = $"{nameof(articleModule)}" }).LocalNav())
                 .Add(T["articl2"], thirdLevel =>
                 thirdLevel.Action(nameof(AdminController.PublishedArticleList),
                 "Admin", new { area = $"{nameof(articleModule)}" }).LocalNav())
                )
            );
-
+           
 
 
 

@@ -1,7 +1,7 @@
 using OrchardCore.Modules.Manifest;
 
 [assembly: Module(
-    Name = "news Model",
+    Name = "news",
     Author = "The Orchard Team",
     Website = "https://orchardproject.net",
     Version = "0.0.1",

@@ -1,7 +1,7 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Navigation/NewsModuleMenu.cs">
     <Files>
-      <File FileName="Manifest.cs" Line="4" Column="23" />
+      <File FileName="Manifest.cs" Line="4" Column="17" />
       <File FileName="ViewModels/NewsViewModel.cs" Line="31" Column="20" />
       <File FileName="Migrations/NewsMigration.cs" Line="77" Column="21" />
       <File FileName="Indexes/NewsModelIndex.cs" Line="29" Column="18" />
@@ -12,7 +12,7 @@
       <File FileName="Views/NewsModel.cshtml" Line="4" Column="1" />
       <File FileName="Views/NewsModel.Edit.cshtml" Line="30" Column="12" />
       <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="35" Column="29" />
+      <File FileName="Startup.cs" Line="35" Column="57" />
       <File FileName="Controllers/NewsList.cs" Line="1" Column="1" />
       <File FileName="Controllers/NewsContentController.cs" Line="67" Column="22" />
       <File FileName="DbOperation.cs" Line="25" Column="1" />
@@ -22,9 +22,9 @@
       <File FileName="../../../../.nuget/packages/orchardcore.module.targets/1.0.0-rc1-10004/build/netcoreapp3.0/Package.Build.props" Line="1" Column="1" />
       <File FileName="Controllers/NewsMenuController.cs" Line="2" Column="1" />
       <File FileName="Controllers/AdminController.cs" Line="37" Column="10" />
-      <File FileName="Views/Admin/NewsList.cshtml" Line="5" Column="16" />
+      <File FileName="Views/Admin/NewsList.cshtml" Line="21" Column="2" />
       <File FileName="Views/Admin/Index.cshtml" Line="1" Column="28" />
-      <File FileName="Navigation/NewsModuleMenu.cs" Line="30" Column="1" />
+      <File FileName="Navigation/NewsModuleMenu.cs" Line="40" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,8 +32,12 @@
           <Node name="news" expanded="True">
             <Node name="news" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Navigation" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Drivers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Navigation" expanded="True">
+                <Node name="NewsModuleMenu.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>

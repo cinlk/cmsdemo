@@ -9,7 +9,7 @@ namespace articleModule.Indexes
     {
 
         //系统自加的documentid
-        //public string DocumentId { get; }
+        public int DocumentId { get; set; }
 
         public string ContentItemId { get; set; }
 
