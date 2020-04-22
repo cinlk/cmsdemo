@@ -28,6 +28,7 @@
           "OrchardCore.Logging.NLog": "1.0.0-rc1-10004",
           "articleModule": "1.0.0",
           "news": "1.0.0",
+          "portalIndex": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -6120,6 +6121,19 @@
           "news.dll": {}
         }
       },
+      "portalIndex/1.0.0": {
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "runtime": {
+          "portalIndex.dll": {}
+        },
+        "compile": {
+          "portalIndex.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -10683,6 +10697,11 @@
       "sha512": ""
     },
     "news/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "portalIndex/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

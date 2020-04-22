@@ -29,7 +29,7 @@ namespace news.Navigation
 
             //var t =  menus.Where(item => item.Text == "orchard module").Single();
 
-            builder.Add(T["orchard modules"], "6",(menu =>
+            builder.Add(T["portal modules"], "6",(menu =>
                  menu.LinkToFirstChild(true)
                  .Add(T["news"], subitem =>
                  subitem.LinkToFirstChild(true)

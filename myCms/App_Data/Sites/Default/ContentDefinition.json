@@ -153,6 +153,40 @@
           "Settings": {}
         }
       ]
+    },
+    {
+      "Name": "ProductDesModel",
+      "DisplayName": "Product Des Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "ProductDesModel",
+          "Name": "ProductDesModel",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "ClientExampleModel",
+      "DisplayName": "Client Example Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "ClientExampleModel",
+          "Name": "ClientExampleModel",
+          "Settings": {}
+        }
+      ]
     }
   ],
   "ContentPartDefinitionRecords": [
@@ -442,7 +476,43 @@
           }
         }
       ]
+    },
+    {
+      "Name": "ProductDesModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "des",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "product description",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ClientExampleModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "HtmlField",
+          "Name": "content",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "content",
+              "Editor": "Wysiwyg"
+            },
+            "TextFieldSettings": {
+              "Hint": "example's content"
+            }
+          }
+        }
+      ]
     }
   ],
-  "Serial": 92560
+  "Serial": 92566
 }

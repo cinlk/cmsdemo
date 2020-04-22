@@ -1,0 +1,53 @@
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/NavigationItemText-persons.cshtml">
+    <Files>
+      <File FileName="Startup.cs" Line="46" Column="67" />
+      <File FileName="Models/ProductDes.cs" Line="5" Column="18" />
+      <File FileName="Indexes/ProductDesIndex.cs" Line="23" Column="69" />
+      <File FileName="Drivers/ProductDesDriver.cs" Line="37" Column="18" />
+      <File FileName="Views/ProductDesModel.cshtml" Line="1" Column="1" />
+      <File FileName="Views/_ViewImports.cshtml" Line="8" Column="30" />
+      <File FileName="placement.json" Line="17" Column="6" />
+      <File FileName="ViewModels/ProductDesViewModel.cs" Line="4" Column="1" />
+      <File FileName="Migrations/ProductDesMigration.cs" Line="26" Column="8" />
+      <File FileName="Views/ProductDesModel.Edit.cshtml" Line="8" Column="1" />
+      <File FileName="Manifest.cs" Line="1" Column="1" />
+      <File FileName="../../../../.nuget/packages/orchardcore.module.targets/1.0.0-rc1-10004/build/netcoreapp3.0/Package.Build.props" Line="1" Column="1" />
+      <File FileName="Models/ClientExampleModel.cs" Line="7" Column="18" />
+      <File FileName="Indexes/ClientExampleIndex.cs" Line="37" Column="35" />
+      <File FileName="ViewModels/ClientExampleViewModel.cs" Line="36" Column="1" />
+      <File FileName="Drivers/ClientExampleDriver.cs" Line="25" Column="18" />
+      <File FileName="Views/ClientExampleModel.cshtml" Line="6" Column="56" />
+      <File FileName="Views/ClientExampleModel.Edit.cshtml" Line="21" Column="1" />
+      <File FileName="Migrations/ClientExampleMigration.cs" Line="23" Column="10" />
+      <File FileName="Navigation/ModuleMenu.cs" Line="5" Column="31" />
+      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Controllers/AdminController.cs" Line="60" Column="43" />
+      <File FileName="Views/Admin/ClientExampleList.cshtml" Line="2" Column="1" />
+      <File FileName="Views/Admin/Index.cshtml" Line="1" Column="19" />
+      <File FileName="Views/Admin/ProductDesList.cshtml" Line="4" Column="48" />
+      <File FileName="Views/NavigationItemText_persons.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="portalIndex" expanded="True">
+            <Node name="portalIndex" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Navigation" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="NavigationItemText-persons.cshtml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

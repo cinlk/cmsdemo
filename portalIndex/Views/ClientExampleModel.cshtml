@@ -1,0 +1,6 @@
+﻿@model ShapeViewModel<ClientExampleModel>
+
+
+<div>@T["title: {0}", Model.Value.title]</div>
+<div>@T["Created Date: {0}", Model.Value.createdTime.ToShortDateString()]</div>
+<div>@T["cover image url: {0}", Model.Value.coverImg]</div>

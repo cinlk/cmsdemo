@@ -57,7 +57,7 @@ namespace articleModule
 
 
             // Admin Menu
-            services.AddScoped<INavigationProvider, PortalModuleMenu>();
+            //services.AddScoped<INavigationProvider, PortalModuleMenu>();
 
         }
 
