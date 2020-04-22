@@ -1,7 +1,7 @@
 @model ProductDesViewModel
 @using portalIndex.ViewModels
 
-<fieldset class="form-group" asp-validation-class-for="icon">
+<fieldset class="form-group"  asp-validation-class-for="icon">
     <label asp-for="icon">@T["icon Image url"] <span asp-validation-for="icon"></span></label>
     <input asp-for="icon" type="url" class="form-control" />
 </fieldset>

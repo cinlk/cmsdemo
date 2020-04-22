@@ -1,0 +1,13 @@
+﻿{
+  "CompanyIntroduceModel": [
+    {
+      "place": "Content:1"
+    }
+  ],
+  "TeamIntroduceModel": [
+    {
+      "place":  "Content:2"
+    }
+
+  ]
+}

@@ -6997,6 +6997,24 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "portalIntroduce/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "compile": {
+          "bin/placeholder/portalIntroduce.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/portalIntroduce.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -19027,6 +19045,11 @@
       "type": "project",
       "path": "../portalIndex/portalIndex.csproj",
       "msbuildProject": "../portalIndex/portalIndex.csproj"
+    },
+    "portalIntroduce/1.0.0": {
+      "type": "project",
+      "path": "../portalIntroduce/portalIntroduce.csproj",
+      "msbuildProject": "../portalIntroduce/portalIntroduce.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -19035,7 +19058,8 @@
       "OrchardCore.Logging.NLog >= 1.0.0-rc1-10004",
       "articleModule >= 1.0.0",
       "news >= 1.0.0",
-      "portalIndex >= 1.0.0"
+      "portalIndex >= 1.0.0",
+      "portalIntroduce >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -19070,6 +19094,9 @@
             },
             "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj": {
               "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj"
+            },
+            "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj": {
+              "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj"
             }
           }
         }

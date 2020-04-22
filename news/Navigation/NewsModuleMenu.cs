@@ -31,12 +31,9 @@ namespace news.Navigation
 
             builder.Add(T["portal modules"], "6",(menu =>
                  menu.LinkToFirstChild(true)
-                 .Add(T["news"], subitem =>
+                 .Add(T["newsPage"], subitem =>
                  subitem.LinkToFirstChild(true)
-                 .Add(T["news-part1"], thirdLevel =>
-                 thirdLevel.Action(nameof(AdminController.Index),
-                 "Admin", new { area = $"{nameof(news)}" }).LocalNav())
-                 .Add(T["news-part2"], thirdLevel =>
+                 .Add(T["newsList"], thirdLevel =>
                  thirdLevel.Action(nameof(AdminController.NewsList),
                  "Admin", new { area = $"{nameof(news)}" }).LocalNav())
                 ))

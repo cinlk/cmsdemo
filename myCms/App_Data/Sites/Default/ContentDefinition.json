@@ -187,6 +187,40 @@
           "Settings": {}
         }
       ]
+    },
+    {
+      "Name": "CompanyIntroduceModel",
+      "DisplayName": "Company Introduce Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "CompanyIntroduceModel",
+          "Name": "CompanyIntroduceModel",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "TeamIntroduceModel",
+      "DisplayName": "Team Introduce Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "TeamIntroduceModel",
+          "Name": "TeamIntroduceModel",
+          "Settings": {}
+        }
+      ]
     }
   ],
   "ContentPartDefinitionRecords": [
@@ -512,7 +546,45 @@
           }
         }
       ]
+    },
+    {
+      "Name": "CompanyIntroduceModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "content",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "company introduce content",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {
+              "Required": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "TeamIntroduceModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "HtmlField",
+          "Name": "bio",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "person bio",
+              "Editor": "Wysiwyg"
+            },
+            "HtmlFieldSettings": {
+              "Hint": "self bio"
+            }
+          }
+        }
+      ]
     }
   ],
-  "Serial": 92566
+  "Serial": 92572
 }

@@ -1,0 +1,15 @@
+@model CompanyIntroduceViewModel
+@using portalIntroduce.ViewModels
+
+
+<fieldset class="form-group" asp-validation-class-for="title">
+    <label asp-for="title">@T["title"] <span asp-validation-for="title"></span></label>
+    <input asp-for="title" class="form-control" />
+    <span class="hint">@T["content's title"]</span>
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="coverImg">
+    <label asp-for="coverImg">@T["cover Image url"] <span asp-validation-for="coverImg"></span></label>
+    <input asp-for="coverImg" type="url" class="form-control" />
+</fieldset>

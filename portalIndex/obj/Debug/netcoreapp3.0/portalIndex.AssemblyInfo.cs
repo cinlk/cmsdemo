@@ -11,6 +11,8 @@ using System;
 using System.Reflection;
 
 [assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("portalIndex", "Module")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/portalIndex/.portalIndex.csproj.swp|/Users/liangke/netCoreProject/orchard/d" +
+    "evelop/portalIndex/.portalIndex.csproj.swp")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/portalIndex/placement.json|/Users/liangke/netCoreProject/orchard/develop/po" +
     "rtalIndex/placement.json")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas/portalIndex/Views/ClientExampleModel.cshtml|/Users/liangke/netCoreProject/o" +

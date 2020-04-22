@@ -21,6 +21,7 @@
     <ProjectReference Include="..\articleModule\articleModule.csproj" />
     <ProjectReference Include="..\news\news.csproj" />
     <ProjectReference Include="..\portalIndex\portalIndex.csproj" />
+    <ProjectReference Include="..\portalIntroduce\portalIntroduce.csproj" />
   </ItemGroup>
 
 

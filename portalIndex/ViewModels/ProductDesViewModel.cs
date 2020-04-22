@@ -21,7 +21,7 @@ namespace portalIndex.ViewModels
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-             var T = validationContext.GetService<IStringLocalizer<ProductDesModel>>();
+            var T = validationContext.GetService<IStringLocalizer<ProductDesModel>>();
 
             if (string.IsNullOrEmpty(icon))
             {

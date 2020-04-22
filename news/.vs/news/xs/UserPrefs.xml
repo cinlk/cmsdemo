@@ -1,11 +1,10 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/NewsMenuController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Navigation/NewsModuleMenu.cs">
     <Files>
-      <File FileName="Controllers/NewsMenuController.cs" Line="2" Column="1" />
       <File FileName="Controllers/AdminController.cs" Line="32" Column="29" />
-      <File FileName="Views/Admin/NewsList.cshtml" Line="21" Column="2" />
-      <File FileName="Views/Admin/Index.cshtml" Line="1" Column="28" />
-      <File FileName="Navigation/NewsModuleMenu.cs" Line="19" Column="10" />
+      <File FileName="Views/Admin/NewsList.cshtml" />
+      <File FileName="Views/Admin/Index.cshtml" />
+      <File FileName="Navigation/NewsModuleMenu.cs" Line="34" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,6 +24,9 @@
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

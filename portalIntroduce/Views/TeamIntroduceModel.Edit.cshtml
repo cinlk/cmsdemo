@@ -1,0 +1,7 @@
+@model TeamIntroduceViewModel
+@using portalIntroduce.ViewModels
+
+    <fieldset class="form-group" asp-validation-class-for="avatarImg">
+        <label asp-for="avatarImg">@T["avatar Image url"] <span asp-validation-for="avatarImg"></span></label>
+        <input asp-for="avatarImg" type="url" class="form-control" />
+    </fieldset>

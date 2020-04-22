@@ -41,9 +41,6 @@ namespace articleModule.Navigation
                )
            );
            
-
-
-
             return Task.CompletedTask;
         }
     }
