@@ -1,0 +1,50 @@
+@model JobViewModel
+@using portalJobs.ViewModels
+
+
+<fieldset class="form-group" asp-validation-class-for="name">
+    <label asp-for="name">@T["title"] <span asp-validation-for="name"></span></label>
+    <input asp-for="name" class="form-control" />
+    <span class="hint">@T["job name"]</span>
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="location">
+    <label asp-for="location">@T["location"] <span asp-validation-for="location"></span></label>
+    <select asp-for="location" asp-items="Html.GetEnumSelectList<JobLocation>()" class="form-control"></select>
+</fieldset>
+
+
+
+<fieldset class="form-group" asp-validation-class-for="type">
+    <label asp-for="type">@T["job type"] <span asp-validation-for="type"></span></label>
+    <input asp-for="type" class="form-control" />
+    <span class="hint">@T["job type"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="count">
+    <label asp-for="count">@T["head count"] <span asp-validation-for="count"></span></label>
+    <input asp-for="count" class="form-control" />
+    <span class="hint">@T["head type"]</span>
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="contactEmail">
+    <label asp-for="contactEmail">@T["contact email"] <span asp-validation-for="contactEmail"></span></label>
+    <input asp-for="contactEmail" class="form-control" />
+    <span class="hint">@T["contact email "]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="contactPhone">
+    <label asp-for="contactPhone">@T["contact phone"] <span asp-validation-for="contactPhone"></span></label>
+    <input asp-for="contactPhone" class="form-control" />
+    <span class="hint">@T["contact phone"]</span>
+</fieldset>
+
+
+
+
+<fieldset class="form-group" asp-validation-class-for="publishedTime">
+    <label asp-for="publishedTime">@T["publisehd time "] <span asp-validation-for="publishedTime"></span></label>
+    <input asp-for="publishedTime" type="date" class="form-control" />
+</fieldset>

@@ -5,9 +5,18 @@
     }
 
   ],
+
+  "TextField": [
+    {
+      "place": "Content:2",
+      "differentiator": "ProductDesModel-des"
+    }
+  ],
+
+
   "ClientExampleModel": [
     {
-      "place":  "Content:3"
+      "place": "Content:3"
     }
   ]
 }

@@ -30,6 +30,7 @@
           "news": "1.0.0",
           "portalIndex": "1.0.0",
           "portalIntroduce": "1.0.0",
+          "portalJobs": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -6148,6 +6149,19 @@
           "portalIntroduce.dll": {}
         }
       },
+      "portalJobs/1.0.0": {
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "runtime": {
+          "portalJobs.dll": {}
+        },
+        "compile": {
+          "portalJobs.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -10721,6 +10735,11 @@
       "sha512": ""
     },
     "portalIntroduce/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "portalJobs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

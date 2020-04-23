@@ -30,7 +30,9 @@ namespace news.Navigation
             //var t =  menus.Where(item => item.Text == "orchard module").Single();
 
             builder.Add(T["portal modules"], "6",(menu =>
+            
                  menu.LinkToFirstChild(true)
+                 .AddClass("").Id("")
                  .Add(T["newsPage"], subitem =>
                  subitem.LinkToFirstChild(true)
                  .Add(T["newsList"], thirdLevel =>

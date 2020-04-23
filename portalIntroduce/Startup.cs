@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Routing;
 using OrchardCore.ContentManagement;
 using OrchardCore.Data.Migration;
 using Microsoft.Extensions.DependencyInjection;
-using OrchardCore.DisplayManagement;
 using OrchardCore.ContentManagement.Display.ContentDisplay;
 using OrchardCore.Navigation;
 using OrchardCore.Modules;

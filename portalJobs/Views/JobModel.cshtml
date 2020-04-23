@@ -1,0 +1,9 @@
+﻿@model ShapeViewModel<JobModel>
+
+<div>@T["job name: {0}", Model.Value.name]</div>
+<div>@T["job type: {0}", Model.Value.type]</div>
+<div>@T["head count: {0}", Model.Value.count]</div>
+<div>@T["job location: {0}", Model.Value.location]</div>
+<div>@T["published time: {0}", Model.Value.publishedTime.ToShortDateString()]</div>
+<div>@T["contact email: {0}", Model.Value.contactEmail]]</div>
+<div>@T["contact phone: {0}", Model.Value.contactPhone]</div>

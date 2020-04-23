@@ -30,3 +30,7 @@
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/Razor/Views/Admin/Index.cshtml.g.cs
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/Razor/Views/Admin/ProductDesList.cshtml.g.cs
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/Razor/Views/NavigationItemText-persons.cshtml.g.cs
+/Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/Razor/Views/ClientExampleModel.Summary.cshtml.g.cs
+/Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/Razor/Views/ClientExampleModel.SummaryAdmin.cshtml.g.cs
+/Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/Razor/Views/ProductDesModel.Summary.cshtml.g.cs
+/Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/Razor/Views/ProductDesModel.SummaryAdmin.cshtml.g.cs

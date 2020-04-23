@@ -7015,6 +7015,24 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "portalJobs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "compile": {
+          "bin/placeholder/portalJobs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/portalJobs.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -19050,6 +19068,11 @@
       "type": "project",
       "path": "../portalIntroduce/portalIntroduce.csproj",
       "msbuildProject": "../portalIntroduce/portalIntroduce.csproj"
+    },
+    "portalJobs/1.0.0": {
+      "type": "project",
+      "path": "../portalJobs/portalJobs.csproj",
+      "msbuildProject": "../portalJobs/portalJobs.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -19059,7 +19082,8 @@
       "articleModule >= 1.0.0",
       "news >= 1.0.0",
       "portalIndex >= 1.0.0",
-      "portalIntroduce >= 1.0.0"
+      "portalIntroduce >= 1.0.0",
+      "portalJobs >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -19097,6 +19121,9 @@
             },
             "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj": {
               "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj"
+            },
+            "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj": {
+              "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj"
             }
           }
         }

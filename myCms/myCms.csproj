@@ -22,6 +22,7 @@
     <ProjectReference Include="..\news\news.csproj" />
     <ProjectReference Include="..\portalIndex\portalIndex.csproj" />
     <ProjectReference Include="..\portalIntroduce\portalIntroduce.csproj" />
+    <ProjectReference Include="..\portalJobs\portalJobs.csproj" />
   </ItemGroup>
 
 

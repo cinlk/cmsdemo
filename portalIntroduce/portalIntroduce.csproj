@@ -28,9 +28,11 @@
     <Content Include="Views\_ViewImports.cshtml" />
     <Content Include="Views\Admin\CompanyIntroduce.cshtml" />
     <Content Include="Views\Admin\TeamIntroduceList.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\Admin\CompanyIntroduce.cshtml" />
     <EmbeddedResource Remove="Views\Admin\TeamIntroduceList.cshtml" />
+    <EmbeddedResource Remove="Views\Admin\Index.cshtml" />
   </ItemGroup>
 </Project>

@@ -28,3 +28,4 @@
 /Users/liangke/netCoreProject/orchard/develop/portalIntroduce/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs
 /Users/liangke/netCoreProject/orchard/develop/portalIntroduce/obj/Debug/netcoreapp3.0/Razor/Views/Admin/CompanyIntroduce.cshtml.g.cs
 /Users/liangke/netCoreProject/orchard/develop/portalIntroduce/obj/Debug/netcoreapp3.0/Razor/Views/Admin/TeamIntroduceList.cshtml.g.cs
+/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/obj/Debug/netcoreapp3.0/Razor/Views/Admin/Index.cshtml.g.cs

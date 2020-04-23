@@ -1,0 +1,50 @@
+﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Navigation/PortalJobsMenu.cs">
+    <Files>
+      <File FileName="Models/JobModel.cs" Line="7" Column="18" />
+      <File FileName="Indexes/JobIndex.cs" />
+      <File FileName="ViewModels/JobViewModel.cs" />
+      <File FileName="Views/JobModel.cshtml" />
+      <File FileName="Controllers/AdminController.cs" />
+      <File FileName="placement.json" />
+      <File FileName="Drivers/JobDriver.cs" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Views/JobModel.Edit.cshtml" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Migrarions/JobMigration.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Views/Admin/JobList.cshtml" />
+      <File FileName="Navigation/PortalJobsMenu.cs" Line="33" Column="17" />
+      <File FileName="Manifest.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="portalJobs" expanded="True">
+            <Node name="portalJobs" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Drivers" expanded="True" />
+              <Node name="Indexes" expanded="True" />
+              <Node name="Migrarions" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Navigation" expanded="True">
+                <Node name="PortalJobsMenu.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
+                <Node name="JobModel.cshtml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

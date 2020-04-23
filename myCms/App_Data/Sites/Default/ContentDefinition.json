@@ -221,6 +221,23 @@
           "Settings": {}
         }
       ]
+    },
+    {
+      "Name": "JobModel",
+      "DisplayName": "Job Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "JobModel",
+          "Name": "JobModel",
+          "Settings": {}
+        }
+      ]
     }
   ],
   "ContentPartDefinitionRecords": [
@@ -584,7 +601,39 @@
           }
         }
       ]
+    },
+    {
+      "Name": "JobModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "requiredList",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "company introduce content",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {
+              "Required": true
+            }
+          }
+        },
+        {
+          "FieldName": "TextField",
+          "Name": "responsileList",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "company introduce content",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {
+              "Required": true
+            }
+          }
+        }
+      ]
     }
   ],
-  "Serial": 92572
+  "Serial": 92575
 }

@@ -83,6 +83,7 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("news")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("portalIndex")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("portalIntroduce")]
+[assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("portalJobs")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("myCms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

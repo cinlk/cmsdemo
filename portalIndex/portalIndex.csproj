@@ -24,19 +24,4 @@
     <Folder Include="Navigation\" />
     <Folder Include="Views\Admin\" />
   </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Remove="Views\_ViewImports.cshtml" />
-    <EmbeddedResource Remove="Views\Admin\ProductDesList.cshtml" />
-    <EmbeddedResource Remove="Views\Admin\ClientExampleList.cshtml" />
-    <EmbeddedResource Remove="Views\Admin\Index.cshtml" />
-    <EmbeddedResource Remove="Views\NavigationItemText_persons.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\ProductDesModel.cshtml" />
-    <Content Include="Views\_ViewImports.cshtml" />
-    <Content Include="Views\Admin\ProductDesList.cshtml" />
-    <Content Include="Views\Admin\ClientExampleList.cshtml" />
-    <Content Include="Views\Admin\Index.cshtml" />
-    <Content Include="Views\NavigationItemText-persons.cshtml" />
-  </ItemGroup>
 </Project>

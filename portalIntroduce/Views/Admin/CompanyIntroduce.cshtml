@@ -1,22 +1,4 @@
-﻿@model IEnumerable<dynamic>
-
+﻿@model dynamic
 
 <h1>@RenderTitleSegments(T["Company Description"])</h1>
-
-@if (Model.Any())
-{
-    <ul class="list-group">
-        @foreach (var contentItemSummary in Model)
-        {
-            <li class="list-group-item">
-                @await DisplayAsync(contentItemSummary)
-            </li>
-        }
-    </ul>
-}
-else
-{
-    <div class="alert alert-info">
-        @T["No result found."]
-    </div>
-}
+@await DisplayAsync(Model)

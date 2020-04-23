@@ -1,42 +1,50 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Admin/TeamIntroduceList.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AdminController.cs">
     <Files>
       <File FileName="Models/CompanyIntroduceModel.cs" Line="7" Column="18" />
-      <File FileName="Indexes/CompanyIntroduceIndex.cs" Line="8" Column="18" />
-      <File FileName="Drivers/CompanyIntroduceDriver.cs" Line="31" Column="72" />
-      <File FileName="ViewModels/CompanyIntroduceViewModel.cs" Line="10" Column="18" />
-      <File FileName="Views/CompanyIntroduceModel.cshtml" Line="1" Column="35" />
-      <File FileName="placement.json" Line="14" Column="1" />
-      <File FileName="Views/_ViewImports.cshtml" Line="13" Column="1" />
-      <File FileName="Views/CompanyIntroduceModel.Edit.cshtml" Line="4" Column="1" />
-      <File FileName="Migrations/CompanyIntroduceMigration.cs" Line="62" Column="22" />
-      <File FileName="Startup.cs" Line="36" Column="43" />
-      <File FileName="Models/TeamIntroduceModel.cs" Line="6" Column="18" />
-      <File FileName="Drivers/TeamIntroduceDriver.cs" Line="17" Column="45" />
-      <File FileName="Migrations/TeamIntroduceMigration.cs" Line="14" Column="18" />
-      <File FileName="ViewModels/TeamIntroduceViewModel.cs" Line="14" Column="32" />
-      <File FileName="Indexes/TeamIntroduceIndex.cs" Line="30" Column="26" />
-      <File FileName="Views/TeamIntroduceModel.Edit.cshtml" Line="5" Column="94" />
-      <File FileName="Views/TeamIntroduceModel.cshtml" Line="3" Column="25" />
-      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="Navigation/portalIntroduceMenu.cs" Line="25" Column="1" />
-      <File FileName="Controllers/AdminController.cs" Line="59" Column="42" />
-      <File FileName="Views/Admin/CompanyIntroduce.cshtml" Line="22" Column="2" />
-      <File FileName="Views/Admin/TeamIntroduceList.cshtml" Line="4" Column="45" />
+      <File FileName="Indexes/CompanyIntroduceIndex.cs" />
+      <File FileName="Drivers/CompanyIntroduceDriver.cs" Line="17" Column="41" />
+      <File FileName="ViewModels/CompanyIntroduceViewModel.cs" Line="1" Column="1" />
+      <File FileName="Views/CompanyIntroduceModel.cshtml" Line="4" Column="10" />
+      <File FileName="placement.json" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Views/CompanyIntroduceModel.Edit.cshtml" Line="16" Column="1" />
+      <File FileName="Migrations/CompanyIntroduceMigration.cs" />
+      <File FileName="Startup.cs" Line="17" Column="1" />
+      <File FileName="Models/TeamIntroduceModel.cs" />
+      <File FileName="Drivers/TeamIntroduceDriver.cs" Line="1" Column="1" />
+      <File FileName="Migrations/TeamIntroduceMigration.cs" />
+      <File FileName="ViewModels/TeamIntroduceViewModel.cs" />
+      <File FileName="Indexes/TeamIntroduceIndex.cs" />
+      <File FileName="Views/TeamIntroduceModel.Edit.cshtml" />
+      <File FileName="Views/TeamIntroduceModel.cshtml" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Navigation/portalIntroduceMenu.cs" />
+      <File FileName="Controllers/AdminController.cs" Line="46" Column="37" />
+      <File FileName="Views/Admin/CompanyIntroduce.cshtml" Line="1" Column="15" />
+      <File FileName="Views/Admin/TeamIntroduceList.cshtml" />
+      <File FileName="Views/Admin/Index.cshtml" Line="1" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="portalIntroduce" expanded="True">
             <Node name="portalIntroduce" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="AdminController.cs" selected="True" />
+              </Node>
+              <Node name="Drivers" expanded="True" />
+              <Node name="Indexes" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Navigation" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="TeamIntroduceList.cshtml" selected="True" />
-                </Node>
+                <Node name="Admin" expanded="True" />
+                <Node name="CompanyIntroduceModel.cshtml" expanded="True" />
               </Node>
             </Node>
           </Node>

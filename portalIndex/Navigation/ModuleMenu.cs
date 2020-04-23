@@ -27,7 +27,7 @@ namespace portalIndex.Navigation
             builder.Add(T["portal modules"], "6", menu =>
             {
                 //icon class ??
-                menu.AddClass("").Id("")
+                menu.AddClass("persons").Id("persons")
                 .LinkToFirstChild(true)
                 .Add(T["indexPage"], subitem =>
                 {

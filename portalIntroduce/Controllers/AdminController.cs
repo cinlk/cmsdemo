@@ -41,12 +41,17 @@ namespace portalIntroduce.Controllers
         public async Task<ActionResult> PublishedCompanyIntroduce()
         {
             // 改成 选择一个 TODO
-            var models = await _session.Query<ContentItem, ContentItemIndex>()
+            var model = await _session.Query<ContentItem, ContentItemIndex>()
                 .Where(index => index.ContentType == nameof(CompanyIntroduceModel) && index.Latest == true)
-                .OrderBy(index => index.CreatedUtc).ListAsync();
+                .OrderByDescending(index => index.CreatedUtc).FirstOrDefaultAsync();
 
 
-            return View("CompanyIntroduce", await GetShapes(models));
+            if (model == null){
+                return View("Index");
+            }
+
+            var shape = await _contentItemDisplay.BuildDisplayAsync(model, this, "SummaryAdmin");
+            return View("CompanyIntroduce",  shape);
         }
 
         public async Task<ActionResult> PublishedTeamIntroduce()

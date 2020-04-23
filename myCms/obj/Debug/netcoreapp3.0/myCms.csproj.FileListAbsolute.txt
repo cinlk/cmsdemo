@@ -681,3 +681,7 @@
 /Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/portalIntroduce.Views.pdb
 /Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/portalIntroduce.dll
 /Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/portalIntroduce.pdb
+/Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/portalJobs.Views.dll
+/Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/portalJobs.Views.pdb
+/Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/portalJobs.dll
+/Users/liangke/netCoreProject/orchard/develop/myCms/bin/Debug/netcoreapp3.0/portalJobs.pdb
