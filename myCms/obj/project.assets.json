@@ -6960,26 +6960,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "news/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
-        "dependencies": {
-          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
-          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
-          "OrchardCore.ContentTypes.Abstractions": "1.0.0-rc1-10004",
-          "OrchardCore.DisplayManagement": "1.0.0-rc1-10004",
-          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
-        },
-        "compile": {
-          "bin/placeholder/news.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/news.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
       "portalIndex/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -7029,6 +7009,26 @@
         },
         "runtime": {
           "bin/placeholder/portalJobs.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "portalNews/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.ContentTypes.Abstractions": "1.0.0-rc1-10004",
+          "OrchardCore.DisplayManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "compile": {
+          "bin/placeholder/portalNews.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/portalNews.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -19054,11 +19054,6 @@
       "path": "../articleModule/articleModule.csproj",
       "msbuildProject": "../articleModule/articleModule.csproj"
     },
-    "news/1.0.0": {
-      "type": "project",
-      "path": "../news/news.csproj",
-      "msbuildProject": "../news/news.csproj"
-    },
     "portalIndex/1.0.0": {
       "type": "project",
       "path": "../portalIndex/portalIndex.csproj",
@@ -19073,6 +19068,11 @@
       "type": "project",
       "path": "../portalJobs/portalJobs.csproj",
       "msbuildProject": "../portalJobs/portalJobs.csproj"
+    },
+    "portalNews/1.0.0": {
+      "type": "project",
+      "path": "../portalNews/portalNews.csproj",
+      "msbuildProject": "../portalNews/portalNews.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -19080,10 +19080,10 @@
       "OrchardCore.Application.Cms.Targets >= 1.0.0-rc1-10004",
       "OrchardCore.Logging.NLog >= 1.0.0-rc1-10004",
       "articleModule >= 1.0.0",
-      "news >= 1.0.0",
       "portalIndex >= 1.0.0",
       "portalIntroduce >= 1.0.0",
-      "portalJobs >= 1.0.0"
+      "portalJobs >= 1.0.0",
+      "portalNews >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -19113,9 +19113,6 @@
             "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj": {
               "projectPath": "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj"
             },
-            "/Users/liangke/netCoreProject/orchard/develop/news/news.csproj": {
-              "projectPath": "/Users/liangke/netCoreProject/orchard/develop/news/news.csproj"
-            },
             "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj": {
               "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj"
             },
@@ -19124,6 +19121,9 @@
             },
             "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj": {
               "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj"
+            },
+            "/Users/liangke/netCoreProject/orchard/develop/portalNews/portalNews.csproj": {
+              "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalNews/portalNews.csproj"
             }
           }
         }

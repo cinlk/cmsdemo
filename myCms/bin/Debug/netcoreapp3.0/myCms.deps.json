@@ -27,10 +27,10 @@
           "OrchardCore.Application.Cms.Targets": "1.0.0-rc1-10004",
           "OrchardCore.Logging.NLog": "1.0.0-rc1-10004",
           "articleModule": "1.0.0",
-          "news": "1.0.0",
           "portalIndex": "1.0.0",
           "portalIntroduce": "1.0.0",
           "portalJobs": "1.0.0",
+          "portalNews": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -6108,21 +6108,6 @@
           "articleModule.dll": {}
         }
       },
-      "news/1.0.0": {
-        "dependencies": {
-          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
-          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
-          "OrchardCore.ContentTypes.Abstractions": "1.0.0-rc1-10004",
-          "OrchardCore.DisplayManagement": "1.0.0-rc1-10004",
-          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
-        },
-        "runtime": {
-          "news.dll": {}
-        },
-        "compile": {
-          "news.dll": {}
-        }
-      },
       "portalIndex/1.0.0": {
         "dependencies": {
           "OrchardCore.ContentFields": "1.0.0-rc1-10004",
@@ -6160,6 +6145,21 @@
         },
         "compile": {
           "portalJobs.dll": {}
+        }
+      },
+      "portalNews/1.0.0": {
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.ContentTypes.Abstractions": "1.0.0-rc1-10004",
+          "OrchardCore.DisplayManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "runtime": {
+          "portalNews.dll": {}
+        },
+        "compile": {
+          "portalNews.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -10724,11 +10724,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "news/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "portalIndex/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -10740,6 +10735,11 @@
       "sha512": ""
     },
     "portalJobs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "portalNews/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

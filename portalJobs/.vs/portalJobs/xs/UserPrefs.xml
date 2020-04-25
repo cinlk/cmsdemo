@@ -5,16 +5,16 @@
       <File FileName="Indexes/JobIndex.cs" />
       <File FileName="ViewModels/JobViewModel.cs" />
       <File FileName="Views/JobModel.cshtml" />
-      <File FileName="Controllers/AdminController.cs" />
+      <File FileName="Controllers/AdminController.cs" Line="26" Column="1" />
       <File FileName="placement.json" />
       <File FileName="Drivers/JobDriver.cs" />
       <File FileName="Views/_ViewImports.cshtml" />
       <File FileName="Views/JobModel.Edit.cshtml" />
-      <File FileName="Controllers/HomeController.cs" />
-      <File FileName="Migrarions/JobMigration.cs" />
+      <File FileName="Controllers/HomeController.cs" Line="15" Column="10" />
+      <File FileName="Migrarions/JobMigration.cs" Line="31" Column="42" />
       <File FileName="Startup.cs" />
       <File FileName="Views/Admin/JobList.cshtml" />
-      <File FileName="Navigation/PortalJobsMenu.cs" Line="33" Column="17" />
+      <File FileName="Navigation/PortalJobsMenu.cs" Line="15" Column="21" />
       <File FileName="Manifest.cs" />
     </Files>
     <Pads>

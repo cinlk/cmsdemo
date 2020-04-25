@@ -28,7 +28,7 @@ namespace portalJobs.Navigation
             {
                 
                 menu.LinkToFirstChild(true)
-                .Add(T["portalJob"], subItem =>
+                .Add(T["jobsPage"], subItem =>
                 {
                     subItem.LinkToFirstChild(true)
                     .Add(T["jobList"], thirdLevel =>

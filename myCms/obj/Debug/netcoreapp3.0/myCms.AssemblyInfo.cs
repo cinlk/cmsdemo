@@ -80,7 +80,7 @@ using System.Reflection;
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.AdminMenu")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("OrchardCore.Admin")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("articleModule")]
-[assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("news")]
+[assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("portalNews")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("portalIndex")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("portalIntroduce")]
 [assembly: OrchardCore.Modules.Manifest.ModuleNameAttribute("portalJobs")]

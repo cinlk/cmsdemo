@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\articleModule\articleModule.csproj" />
-    <ProjectReference Include="..\news\news.csproj" />
+    <ProjectReference Include="..\portalNews\portalNews.csproj" />
     <ProjectReference Include="..\portalIndex\portalIndex.csproj" />
     <ProjectReference Include="..\portalIntroduce\portalIntroduce.csproj" />
     <ProjectReference Include="..\portalJobs\portalJobs.csproj" />
