@@ -1,0 +1,639 @@
+{
+  "Id": 0,
+  "ContentTypeDefinitionRecords": [
+    {
+      "Name": "Menu",
+      "DisplayName": "Menu",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "TitlePart",
+          "Name": "TitlePart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "AliasPart",
+          "Name": "AliasPart",
+          "Settings": {
+            "AliasPartSettings": {
+              "Pattern": "{{ ContentItem | display_text | slugify }}"
+            },
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        },
+        {
+          "PartName": "MenuPart",
+          "Name": "MenuPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "2"
+            }
+          }
+        },
+        {
+          "PartName": "MenuItemsListPart",
+          "Name": "MenuItemsListPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "LinkMenuItem",
+      "DisplayName": "Link Menu Item",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Stereotype": "MenuItem"
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "LinkMenuItemPart",
+          "Name": "LinkMenuItemPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "LinkMenuItem",
+          "Name": "LinkMenuItem",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "article",
+      "DisplayName": "article",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true,
+          "Draftable": true,
+          "Versionable": true,
+          "Securable": true
+        },
+        "FullTextAspectSettings": {}
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "article",
+          "Name": "article",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "0"
+            }
+          }
+        },
+        {
+          "PartName": "HtmlBodyPart",
+          "Name": "HtmlBodyPart",
+          "Settings": {
+            "ContentTypePartSettings": {
+              "Position": "1",
+              "Editor": "Wysiwyg"
+            },
+            "HtmlBodyPartSettings": {},
+            "ContentIndexSettings": {}
+          }
+        },
+        {
+          "PartName": "FlowPart",
+          "Name": "FlowPart",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "ArticleModel",
+      "DisplayName": "Article Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "ArticleModel",
+          "Name": "ArticleModel",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "NewsModel",
+      "DisplayName": "News Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "NewsModel",
+          "Name": "NewsModel",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "ProductDesModel",
+      "DisplayName": "Product Des Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "ProductDesModel",
+          "Name": "ProductDesModel",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "ClientExampleModel",
+      "DisplayName": "Client Example Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "ClientExampleModel",
+          "Name": "ClientExampleModel",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "CompanyIntroduceModel",
+      "DisplayName": "Company Introduce Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "CompanyIntroduceModel",
+          "Name": "CompanyIntroduceModel",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "TeamIntroduceModel",
+      "DisplayName": "Team Introduce Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "TeamIntroduceModel",
+          "Name": "TeamIntroduceModel",
+          "Settings": {}
+        }
+      ]
+    },
+    {
+      "Name": "JobModel",
+      "DisplayName": "Job Model",
+      "Settings": {
+        "ContentTypeSettings": {
+          "Creatable": true,
+          "Listable": true
+        }
+      },
+      "ContentTypePartDefinitionRecords": [
+        {
+          "PartName": "JobModel",
+          "Name": "JobModel",
+          "Settings": {}
+        }
+      ]
+    }
+  ],
+  "ContentPartDefinitionRecords": [
+    {
+      "Name": "CommonPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides an editor for the common properties of a content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "LiquidPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a Liquid formatted body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "AliasPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a way to define custom aliases for content items."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "AutoroutePart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a custom url for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "WidgetsListPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a way to add widgets per content items."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "FlowPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a customizable body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "text",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "作者名称",
+              "Position": "0"
+            },
+            "TextFieldSettings": {
+              "Required": true
+            },
+            "ContentIndexSettings": {}
+          }
+        },
+        {
+          "FieldName": "DateField",
+          "Name": "date",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "创建时间",
+              "Editor": "Localized",
+              "Position": "1"
+            },
+            "DateFieldSettings": {},
+            "ContentIndexSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "BagPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Reusable": true,
+          "Description": "Provides a collection behavior for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "HtmlBodyPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides an HTML Body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "ListPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Add a list behavior."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "MarkdownBodyPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a Markdown formatted body for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "TitlePart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a Title for your content item.",
+          "DefaultPosition": "0"
+        }
+      },
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "title",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "title",
+              "DisplayMode": "Header",
+              "Position": "0"
+            },
+            "TextFieldSettings": {},
+            "ContentIndexSettings": {},
+            "TextFieldHeaderDisplaySettings": {
+              "Level": "h1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "MenuPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Reusable": true
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "MenuItemPart",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "LinkMenuItemPart",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true,
+          "Description": "Provides a menu link behavior for your content item."
+        }
+      },
+      "ContentPartFieldDefinitionRecords": []
+    },
+    {
+      "Name": "article",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "title",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "title",
+              "DisplayMode": "Header",
+              "Position": "0"
+            },
+            "TextFieldSettings": {},
+            "ContentIndexSettings": {},
+            "TextFieldHeaderDisplaySettings": {
+              "Level": "h2"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "test-media",
+      "Settings": {
+        "ContentPartSettings": {
+          "Attachable": true
+        }
+      },
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "MediaField",
+          "Name": "media",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "media",
+              "Position": "0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ArticleModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "authorName",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "author name",
+              "Editor": "Standard"
+            },
+            "TextFieldSettings": {
+              "Hint": "author's name",
+              "Required": true
+            }
+          }
+        },
+        {
+          "FieldName": "HtmlField",
+          "Name": "Content",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "Html Body",
+              "Editor": "Wysiwyg"
+            },
+            "HtmlFieldSettings": {
+              "Hint": "content body"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "NewsModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "Description",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "description",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {}
+          }
+        },
+        {
+          "FieldName": "HtmlField",
+          "Name": "ContentBody",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "content",
+              "Editor": "Wysiwyg"
+            },
+            "HtmlFieldSettings": {
+              "Hint": "内容"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ProductDesModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "des",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "product description",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {}
+          }
+        }
+      ]
+    },
+    {
+      "Name": "ClientExampleModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "HtmlField",
+          "Name": "content",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "content",
+              "Editor": "Wysiwyg"
+            },
+            "TextFieldSettings": {
+              "Hint": "example's content"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "CompanyIntroduceModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "content",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "company introduce content",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {
+              "Required": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "TeamIntroduceModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "HtmlField",
+          "Name": "bio",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "person bio",
+              "Editor": "Wysiwyg"
+            },
+            "HtmlFieldSettings": {
+              "Hint": "self bio"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Name": "JobModel",
+      "Settings": {},
+      "ContentPartFieldDefinitionRecords": [
+        {
+          "FieldName": "TextField",
+          "Name": "requiredList",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "company introduce content",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {
+              "Required": true
+            }
+          }
+        },
+        {
+          "FieldName": "TextField",
+          "Name": "responsileList",
+          "Settings": {
+            "ContentPartFieldSettings": {
+              "DisplayName": "company introduce content",
+              "Editor": "TextArea"
+            },
+            "TextFieldSettings": {
+              "Required": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "Serial": 92596
+}

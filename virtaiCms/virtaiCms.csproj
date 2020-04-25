@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TieredCompilation>true</TieredCompilation>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'virtaiCms' ">
+    <StartAction>Project</StartAction>
+    <ExternalConsole>true</ExternalConsole>
+    <ApplicationURL>http://localhost:4000</ApplicationURL>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Localization\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc1-10004" />
+    <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc1-10004" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\articleModule\articleModule.csproj" />
+    <ProjectReference Include="..\portalNews\portalNews.csproj" />
+    <ProjectReference Include="..\portalIndex\portalIndex.csproj" />
+    <ProjectReference Include="..\portalIntroduce\portalIntroduce.csproj" />
+    <ProjectReference Include="..\portalJobs\portalJobs.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

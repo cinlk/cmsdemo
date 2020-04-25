@@ -1,0 +1,446 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/liangke/netCoreProject/orchard/develop/virtaiCms/virtaiCms.csproj": {}
+  },
+  "projects": {
+    "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj",
+        "projectName": "articleModule",
+        "projectPath": "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj",
+        "packagesPath": "/Users/liangke/.nuget/packages/",
+        "outputPath": "/Users/liangke/netCoreProject/orchard/develop/articleModule/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/liangke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "OrchardCore.ContentFields": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.Data.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.Media": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj",
+        "projectName": "portalIndex",
+        "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj",
+        "packagesPath": "/Users/liangke/.nuget/packages/",
+        "outputPath": "/Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/liangke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "OrchardCore.ContentFields": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj",
+        "projectName": "portalIntroduce",
+        "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj",
+        "packagesPath": "/Users/liangke/.nuget/packages/",
+        "outputPath": "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/liangke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "OrchardCore.ContentFields": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj",
+        "projectName": "portalJobs",
+        "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj",
+        "packagesPath": "/Users/liangke/.nuget/packages/",
+        "outputPath": "/Users/liangke/netCoreProject/orchard/develop/portalJobs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/liangke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "OrchardCore.ContentFields": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/liangke/netCoreProject/orchard/develop/portalNews/portalNews.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/liangke/netCoreProject/orchard/develop/portalNews/portalNews.csproj",
+        "projectName": "portalNews",
+        "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalNews/portalNews.csproj",
+        "packagesPath": "/Users/liangke/.nuget/packages/",
+        "outputPath": "/Users/liangke/netCoreProject/orchard/develop/portalNews/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/liangke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "OrchardCore.ContentFields": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.ContentManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.ContentTypes.Abstractions": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.DisplayManagement": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.Module.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/liangke/netCoreProject/orchard/develop/virtaiCms/virtaiCms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/liangke/netCoreProject/orchard/develop/virtaiCms/virtaiCms.csproj",
+        "projectName": "virtaiCms",
+        "projectPath": "/Users/liangke/netCoreProject/orchard/develop/virtaiCms/virtaiCms.csproj",
+        "packagesPath": "/Users/liangke/.nuget/packages/",
+        "outputPath": "/Users/liangke/netCoreProject/orchard/develop/virtaiCms/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/liangke/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj": {
+                "projectPath": "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj"
+              },
+              "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj": {
+                "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj"
+              },
+              "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj": {
+                "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/portalIntroduce.csproj"
+              },
+              "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj": {
+                "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalJobs/portalJobs.csproj"
+              },
+              "/Users/liangke/netCoreProject/orchard/develop/portalNews/portalNews.csproj": {
+                "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalNews/portalNews.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "OrchardCore.Application.Cms.Targets": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            },
+            "OrchardCore.Logging.NLog": {
+              "target": "Package",
+              "version": "[1.0.0-rc1-10004, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

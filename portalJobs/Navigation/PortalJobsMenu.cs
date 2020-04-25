@@ -24,7 +24,7 @@ namespace portalJobs.Navigation
                 return Task.CompletedTask;
             }
 
-            builder.Add(T["portal modules"], "6", menu =>
+            builder.Add(T["界面内容模板"], "6", menu =>
             {
                 
                 menu.LinkToFirstChild(true)

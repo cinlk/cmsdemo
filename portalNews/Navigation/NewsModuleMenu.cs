@@ -29,7 +29,7 @@ namespace portalNews.Navigation
 
             //var t =  menus.Where(item => item.Text == "orchard module").Single();
 
-            builder.Add(T["portal modules"], "6",(menu =>
+            builder.Add(T["界面内容模板"], "6",(menu =>
             
                  menu.LinkToFirstChild(true)
                  .AddClass("Persons").Id("Persons")
