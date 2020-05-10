@@ -9235,7 +9235,8 @@
     ]
   },
   "packageFolders": {
-    "/Users/liangke/.nuget/packages/": {}
+    "/Users/liangke/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -9246,8 +9247,11 @@
       "packagesPath": "/Users/liangke/.nuget/packages/",
       "outputPath": "/Users/liangke/netCoreProject/orchard/develop/portalIntroduce/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/liangke/.config/NuGet/NuGet.Config"
+        "/Users/liangke/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -9300,7 +9304,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

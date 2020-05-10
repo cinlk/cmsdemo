@@ -4,7 +4,6 @@
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/bin/Debug/netcoreapp3.0/portalIndex.Views.dll
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/bin/Debug/netcoreapp3.0/portalIndex.Views.pdb
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/portalIndex.csprojAssemblyReference.cache
-/Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/portalIndex.csproj.CoreCompileInputs.cache
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/portalIndex.RazorAssemblyInfo.cache
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/portalIndex.RazorAssemblyInfo.cs
 /Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/Debug/netcoreapp3.0/portalIndex.AssemblyInfoInputs.cache

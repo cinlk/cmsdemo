@@ -13,6 +13,9 @@
         "packagesPath": "/Users/liangke/.nuget/packages/",
         "outputPath": "/Users/liangke/netCoreProject/orchard/develop/articleModule/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/liangke/.nuget/NuGet/NuGet.Config"
         ],
@@ -83,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.103/RuntimeIdentifierGraph.json"
         }
       }
     }

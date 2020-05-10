@@ -42,7 +42,7 @@ namespace portalIntroduce.Migrations
 
             _contentDefineManager.AlterTypeDefinition(nameof(TeamIntroduceModel), conf => {
                 conf.Creatable()
-                .Listable()
+                .Listable().Draftable()
                 .WithPart(nameof(TeamIntroduceModel));
 
             });

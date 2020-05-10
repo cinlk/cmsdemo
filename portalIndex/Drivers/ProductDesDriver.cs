@@ -24,6 +24,7 @@ namespace portalIndex.Drivers
             return Initialize<ProductDesViewModel>($"{nameof(ProductDesModel)}_Edit",
                  model =>
                  {
+                     model.laguange = part.Languange;
                      model.icon = part.icon;
                      model.productDesModel = part;
                  })
@@ -38,7 +39,7 @@ namespace portalIndex.Drivers
 
             await updater.TryUpdateModelAsync(vm, Prefix);
 
-
+            part.Languange = vm.laguange;
             part.icon = vm.icon;
 
             return Edit(part);

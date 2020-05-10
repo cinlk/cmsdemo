@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using OrchardCore.ContentManagement.Display.ContentDisplay;
+
 using OrchardCore.DisplayManagement.ModelBinding;
 using OrchardCore.DisplayManagement.Views;
 
@@ -31,6 +32,7 @@ namespace portalIntroduce.Drivers
         public override async Task<IDisplayResult> UpdateAsync(CompanyIntroduceModel part, IUpdateModel updater)
         {
             var vm = new CompanyIntroduceViewModel();
+            
             await updater.TryUpdateModelAsync(vm, Prefix);
 
             part.coverImg = vm.coverImg;
@@ -39,6 +41,8 @@ namespace portalIntroduce.Drivers
             return Edit(part);
 
         }
+
+        
 
     }
 }

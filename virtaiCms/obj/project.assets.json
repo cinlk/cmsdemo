@@ -6960,6 +6960,26 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "portalEnglish/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.ContentTypes.Abstractions": "1.0.0-rc1-10004",
+          "OrchardCore.DisplayManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "compile": {
+          "bin/placeholder/portalEnglish.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/portalEnglish.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "portalIndex/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
@@ -19054,6 +19074,11 @@
       "path": "../articleModule/articleModule.csproj",
       "msbuildProject": "../articleModule/articleModule.csproj"
     },
+    "portalEnglish/1.0.0": {
+      "type": "project",
+      "path": "../portalEnglish/portalEnglish.csproj",
+      "msbuildProject": "../portalEnglish/portalEnglish.csproj"
+    },
     "portalIndex/1.0.0": {
       "type": "project",
       "path": "../portalIndex/portalIndex.csproj",
@@ -19080,6 +19105,7 @@
       "OrchardCore.Application.Cms.Targets >= 1.0.0-rc1-10004",
       "OrchardCore.Logging.NLog >= 1.0.0-rc1-10004",
       "articleModule >= 1.0.0",
+      "portalEnglish >= 1.0.0",
       "portalIndex >= 1.0.0",
       "portalIntroduce >= 1.0.0",
       "portalJobs >= 1.0.0",
@@ -19087,7 +19113,8 @@
     ]
   },
   "packageFolders": {
-    "/Users/liangke/.nuget/packages/": {}
+    "/Users/liangke/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -19098,6 +19125,9 @@
       "packagesPath": "/Users/liangke/.nuget/packages/",
       "outputPath": "/Users/liangke/netCoreProject/orchard/develop/virtaiCms/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/liangke/.nuget/NuGet/NuGet.Config"
       ],
@@ -19112,6 +19142,9 @@
           "projectReferences": {
             "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj": {
               "projectPath": "/Users/liangke/netCoreProject/orchard/develop/articleModule/articleModule.csproj"
+            },
+            "/Users/liangke/netCoreProject/orchard/develop/portalEnglish/portalEnglish.csproj": {
+              "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalEnglish/portalEnglish.csproj"
             },
             "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj": {
               "projectPath": "/Users/liangke/netCoreProject/orchard/develop/portalIndex/portalIndex.csproj"
@@ -19164,7 +19197,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

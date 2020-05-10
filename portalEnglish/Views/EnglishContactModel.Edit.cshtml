@@ -1,0 +1,31 @@
+@model ContactViewModel
+@using portalEnglish.ViewModels
+
+
+<fieldset class="form-group" asp-validation-class-for="Address">
+    <label asp-for="Address">@T["Address"] <span asp-validation-for="Address"></span></label>
+    <input asp-for="Address" class="form-control" />
+    <span class="hint">@T["company's Address"]</span>
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="Email">
+    <label asp-for="Email">@T["title"] <span asp-validation-for="Email"></span></label>
+    <input asp-for="Email" class="form-control" />
+    <span class="hint">@T["company's Email "]</span>
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="Number">
+    <label asp-for="Number">@T["Number"] <span asp-validation-for="Number"></span></label>
+    <input asp-for="Number" class="form-control" />
+    <span class="hint">@T["company's Number "]</span>
+</fieldset>
+
+
+
+
+<fieldset class="form-group" asp-validation-class-for="BackgroundImgUrl">
+    <label asp-for="BackgroundImgUrl">@T["backgroud Image url"] <span asp-validation-for="BackgroundImgUrl"></span></label>
+    <input asp-for="BackgroundImgUrl" type="url" class="form-control" />
+</fieldset>

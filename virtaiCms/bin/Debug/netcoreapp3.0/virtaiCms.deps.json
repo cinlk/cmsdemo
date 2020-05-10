@@ -27,6 +27,7 @@
           "OrchardCore.Application.Cms.Targets": "1.0.0-rc1-10004",
           "OrchardCore.Logging.NLog": "1.0.0-rc1-10004",
           "articleModule": "1.0.0",
+          "portalEnglish": "1.0.0",
           "portalIndex": "1.0.0",
           "portalIntroduce": "1.0.0",
           "portalJobs": "1.0.0",
@@ -6108,6 +6109,21 @@
           "articleModule.dll": {}
         }
       },
+      "portalEnglish/1.0.0": {
+        "dependencies": {
+          "OrchardCore.ContentFields": "1.0.0-rc1-10004",
+          "OrchardCore.ContentManagement": "1.0.0-rc1-10004",
+          "OrchardCore.ContentTypes.Abstractions": "1.0.0-rc1-10004",
+          "OrchardCore.DisplayManagement": "1.0.0-rc1-10004",
+          "OrchardCore.Module.Targets": "1.0.0-rc1-10004"
+        },
+        "runtime": {
+          "portalEnglish.dll": {}
+        },
+        "compile": {
+          "portalEnglish.dll": {}
+        }
+      },
       "portalIndex/1.0.0": {
         "dependencies": {
           "OrchardCore.ContentFields": "1.0.0-rc1-10004",
@@ -10720,6 +10736,11 @@
       "hashPath": "yessql.provider.sqlserver.1.0.0-beta-1396.nupkg.sha512"
     },
     "articleModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "portalEnglish/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

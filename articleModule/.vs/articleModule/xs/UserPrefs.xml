@@ -1,11 +1,11 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/NavigationItemText-persons.Id.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/ArticleModel.cs">
     <Files>
       <File FileName="Navigation/PortalModuleMenu.cs" Line="29" Column="1" />
-      <File FileName="Views/NavigationIemText-modules.cshtml" Line="4" Column="1" />
-      <File FileName="Data/ArtcileDbContext.cs" Line="38" Column="10" />
       <File FileName="Controllers/ArticleController.cs" Line="151" Column="14" />
-      <File FileName="Controllers/HomeController.cs" Line="35" Column="10" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Controllers/AdminController.cs" Line="1" Column="1" />
+      <File FileName="Models/ArticleModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,18 +18,15 @@
               <Node name="Drivers" expanded="True" />
               <Node name="Indexes" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ArticleModel.cs" selected="True" />
+              </Node>
               <Node name="Navigation" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="ArticleModel.cshtml" selected="True" />
-              </Node>
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

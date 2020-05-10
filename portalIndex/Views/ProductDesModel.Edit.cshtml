@@ -1,7 +1,14 @@
 @model ProductDesViewModel
 @using portalIndex.ViewModels
 
-<fieldset class="form-group"  asp-validation-class-for="icon">
+
+
+<fieldset class="form-group" asp-validation-class-for="laguange">
+    <label asp-for="laguange">@T["laguange"] <span asp-validation-for="laguange"></span></label>
+    <select asp-for="laguange" asp-items="Html.GetEnumSelectList<LaguangeType>()" class="form-control"></select>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="icon">
     <label asp-for="icon">@T["icon Image url"] <span asp-validation-for="icon"></span></label>
     <input asp-for="icon" type="url" class="form-control" />
 </fieldset>

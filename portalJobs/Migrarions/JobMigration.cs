@@ -53,7 +53,7 @@ namespace portalJobs.Migrarions
 
             _contentDefineManager.AlterTypeDefinition(nameof(JobModel), builder => {
                 builder.Creatable()
-                .Listable()
+                .Listable().Draftable()
                 .WithPart(nameof(JobModel));
 
             });

@@ -46,7 +46,7 @@ namespace portalIntroduce.Migrations
             _contentDefineManager.AlterTypeDefinition(nameof(CompanyIntroduceModel), builder =>
             {
                 builder.Creatable()
-                .Listable()
+                .Listable().Draftable()
                 .WithPart(nameof(CompanyIntroduceModel));
             });
 

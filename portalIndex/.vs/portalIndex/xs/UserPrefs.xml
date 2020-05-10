@@ -1,58 +1,44 @@
 ﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/ProductDesModel.SummaryAdmin.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Migrations/ProductDesMigration.cs">
     <Files>
-      <File FileName="Startup.cs" Line="43" Column="1" />
+      <File FileName="Indexes/ClientExampleIndex.cs" Line="20" Column="6" />
       <File FileName="Indexes/ProductDesIndex.cs" />
-      <File FileName="Drivers/ProductDesDriver.cs" Line="15" Column="56" />
-      <File FileName="Views/ProductDesModel.cshtml" Line="1" Column="1" />
-      <File FileName="Views/_ViewImports.cshtml" />
-      <File FileName="placement.json" Line="12" Column="45" />
+      <File FileName="Models/ProductDesModel.cs" />
+      <File FileName="Models/ClientExampleModel.cs" />
+      <File FileName="Migrations/ClientExampleMigration.cs" Line="49" Column="40" />
+      <File FileName="Migrations/ProductDesMigration.cs" Line="49" Column="40" />
+      <File FileName="Views/ClientExampleModel.cshtml" />
+      <File FileName="Views/ProductDesModel.cshtml" />
+      <File FileName="Views/ProductDesModel.Edit.cshtml" />
+      <File FileName="Views/ProductDesModel.Summary.cshtml" />
+      <File FileName="Views/ProductDesModel.SummaryAdmin.cshtml" />
       <File FileName="ViewModels/ProductDesViewModel.cs" />
-      <File FileName="Migrations/ProductDesMigration.cs" />
-      <File FileName="Views/ProductDesModel.Edit.cshtml" Line="1" Column="1" />
-      <File FileName="Manifest.cs" />
-      <File FileName="../../../../.nuget/packages/orchardcore.module.targets/1.0.0-rc1-10004/build/netcoreapp3.0/Package.Build.props" />
-      <File FileName="Models/ClientExampleModel.cs" Line="7" Column="18" />
-      <File FileName="Indexes/ClientExampleIndex.cs" Line="1" Column="1" />
-      <File FileName="ViewModels/ClientExampleViewModel.cs" Line="27" Column="27" />
-      <File FileName="Drivers/ClientExampleDriver.cs" Line="22" Column="44" />
-      <File FileName="Views/ClientExampleModel.cshtml" Line="1" Column="1" />
-      <File FileName="Views/ClientExampleModel.Edit.cshtml" Line="21" Column="1" />
-      <File FileName="Migrations/ClientExampleMigration.cs" />
-      <File FileName="Navigation/ModuleMenu.cs" />
-      <File FileName="Controllers/HomeController.cs" />
-      <File FileName="Controllers/AdminController.cs" Line="19" Column="6" />
-      <File FileName="Views/Admin/ClientExampleList.cshtml" />
-      <File FileName="Views/Admin/Index.cshtml" />
-      <File FileName="Views/Admin/ProductDesList.cshtml" />
-      <File FileName="Models/ProductDesModel.cs" Line="5" Column="18" />
-      <File FileName="Views/ClientExampleModel.Summary.cshtml" Line="1" Column="1" />
-      <File FileName="Views/ClientExampleModel.SummaryAdmin.cshtml" Line="1" Column="1" />
-      <File FileName="Views/ProductDesModel.Summary.cshtml" Line="1" Column="1" />
-      <File FileName="Views/ProductDesModel.SummaryAdmin.cshtml" Line="3" Column="51" />
-      <File FileName="Views/NavigationItemText-persons.cshtml" Line="1" Column="1" />
+      <File FileName="ViewModels/ClientExampleViewModel.cs" />
+      <File FileName="Drivers/ProductDesDriver.cs" />
+      <File FileName="Views/NavigationItemText-persons.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="placement.json" />
+      <File FileName="Views/ClientExampleModel.Edit.cshtml" />
+      <File FileName="Startup.cs" />
+      <File FileName="Drivers/ClientExampleDriver.cs" />
+      <File FileName="Controllers/AdminController.cs" Line="54" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="portalIndex" expanded="True">
             <Node name="portalIndex" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Drivers" expanded="True" />
               <Node name="Indexes" expanded="True" />
-              <Node name="Migrations" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="ProductDesMigration.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Navigation" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Admin" expanded="True" />
                 <Node name="ClientExampleModel.cshtml" expanded="True" />
-                <Node name="ProductDesModel.cshtml" expanded="True">
-                  <Node name="ProductDesModel.SummaryAdmin.cshtml" selected="True" />
-                </Node>
               </Node>
             </Node>
           </Node>

@@ -10,7 +10,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'virtaiCms' ">
     <StartAction>Project</StartAction>
     <ExternalConsole>true</ExternalConsole>
-    <ApplicationURL>http://localhost:4000</ApplicationURL>
+    <ApplicationURL>http://localhost:5000</ApplicationURL>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
@@ -28,6 +28,7 @@
     <ProjectReference Include="..\portalIndex\portalIndex.csproj" />
     <ProjectReference Include="..\portalIntroduce\portalIntroduce.csproj" />
     <ProjectReference Include="..\portalJobs\portalJobs.csproj" />
+    <ProjectReference Include="..\portalEnglish\portalEnglish.csproj" />
   </ItemGroup>
 
 

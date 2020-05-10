@@ -13,6 +13,9 @@
         "packagesPath": "/Users/liangke/.nuget/packages/",
         "outputPath": "/Users/liangke/netCoreProject/orchard/develop/portalIndex/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/liangke/.config/NuGet/NuGet.Config"
         ],

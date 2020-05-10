@@ -4,7 +4,6 @@
 /Users/liangke/netCoreProject/orchard/develop/articleModule/bin/Debug/netcoreapp3.0/articleModule.Views.dll
 /Users/liangke/netCoreProject/orchard/develop/articleModule/bin/Debug/netcoreapp3.0/articleModule.Views.pdb
 /Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/articleModule.csprojAssemblyReference.cache
-/Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/articleModule.csproj.CoreCompileInputs.cache
 /Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/articleModule.RazorAssemblyInfo.cache
 /Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/articleModule.RazorAssemblyInfo.cs
 /Users/liangke/netCoreProject/orchard/develop/articleModule/obj/Debug/netcoreapp3.0/articleModule.AssemblyInfoInputs.cache

@@ -9235,7 +9235,8 @@
     ]
   },
   "packageFolders": {
-    "/Users/liangke/.nuget/packages/": {}
+    "/Users/liangke/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -9246,6 +9247,9 @@
       "packagesPath": "/Users/liangke/.nuget/packages/",
       "outputPath": "/Users/liangke/netCoreProject/orchard/develop/portalJobs/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/liangke/.config/NuGet/NuGet.Config"
       ],

@@ -46,7 +46,7 @@ namespace portalIndex.Migrations
             _contentDefineManager.AlterTypeDefinition(nameof(ProductDesModel), conf => {
 
                 conf.Creatable()
-                .Listable()
+                .Listable().Draftable()
                 .WithPart(nameof(ProductDesModel));
             });
 
@@ -59,7 +59,7 @@ namespace portalIndex.Migrations
 
             });
 
-            return 2;
+            return 3;
         }
 
         public int UpdateFrom1()
@@ -71,6 +71,20 @@ namespace portalIndex.Migrations
             });
 
             return 2;
+        }
+
+
+        // add language
+        public int UpdateFrom2()
+        {
+
+            SchemaBuilder.AlterTable(nameof(ProductDesIndex), table => {
+                table.AddColumn<string>(nameof(ProductDesIndex.Laguange), c => {
+                    c.NotNull();
+                    c.WithDefault(LaguangeType.Chinese);
+                });
+            });
+            return 3; 
         }
     }
 }

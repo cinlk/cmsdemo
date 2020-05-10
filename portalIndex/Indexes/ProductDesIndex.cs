@@ -11,9 +11,13 @@ namespace portalIndex.Indexes
         // 系统自带documentid  TODO
 
 
+
         public string contentItemId { get; set; }
 
         public string icon { get; set; }
+
+
+        public LaguangeType Laguange { get; set; }
         
 
     }
@@ -36,6 +40,7 @@ namespace portalIndex.Indexes
                 {
                     contentItemId = item.ContentItemId,
                     icon = model.icon,
+                    Laguange = model.Languange,
                 };
 
             });

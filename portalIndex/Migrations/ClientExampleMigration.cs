@@ -46,7 +46,7 @@ namespace portalIndex.Migrations
             _contentDefineManager.AlterTypeDefinition(nameof(ClientExampleModel), conf => {
 
                 conf.Creatable()
-                .Listable()
+                .Listable().Draftable()
                 .WithPart(nameof(ClientExampleModel));
             });
 

@@ -25,6 +25,9 @@ namespace portalJobs.Indexes
 
         public string contactPhone { get; set; }
 
+        // 添加 有效字段 TODO
+
+
     }
 
 

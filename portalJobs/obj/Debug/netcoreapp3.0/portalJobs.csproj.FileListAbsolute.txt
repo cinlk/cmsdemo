@@ -3,7 +3,6 @@
 /Users/liangke/netCoreProject/orchard/develop/portalJobs/bin/Debug/netcoreapp3.0/portalJobs.pdb
 /Users/liangke/netCoreProject/orchard/develop/portalJobs/bin/Debug/netcoreapp3.0/portalJobs.Views.dll
 /Users/liangke/netCoreProject/orchard/develop/portalJobs/bin/Debug/netcoreapp3.0/portalJobs.Views.pdb
-/Users/liangke/netCoreProject/orchard/develop/portalJobs/obj/Debug/netcoreapp3.0/portalJobs.csproj.CoreCompileInputs.cache
 /Users/liangke/netCoreProject/orchard/develop/portalJobs/obj/Debug/netcoreapp3.0/portalJobs.RazorAssemblyInfo.cache
 /Users/liangke/netCoreProject/orchard/develop/portalJobs/obj/Debug/netcoreapp3.0/portalJobs.RazorAssemblyInfo.cs
 /Users/liangke/netCoreProject/orchard/develop/portalJobs/obj/Debug/netcoreapp3.0/portalJobs.AssemblyInfoInputs.cache

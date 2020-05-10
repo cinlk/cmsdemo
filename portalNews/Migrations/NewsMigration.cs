@@ -74,19 +74,19 @@ namespace portalNews.Migrations
             });
 
 
-            return 1;
+            return 2;
 
         }
 
 
-        //public int UpdateFrom1()
-        //{
-        //    SchemaBuilder.AlterTable(nameof(NewsModelIndex), table =>
-        //    {
-        //        table.AddColumn<String>(nameof(NewsModelIndex.ContentItemId));
-        //    });
+        public int UpdateFrom1()
+        {
+            SchemaBuilder.AlterTable(nameof(NewsModelIndex), table =>
+            {
+                table.AddColumn<String>(nameof(NewsModelIndex.ContentItemId));
+            });
 
-        //    return 2;
-        //}
+            return 2;
+        }
     }
 }

@@ -14,6 +14,9 @@ namespace portalIndex.ViewModels
 
         [Required]
         public string icon { get; set; }
+
+        [Required]
+        public LaguangeType laguange { get; set; } 
         
 
         [BindNever]
@@ -28,6 +31,12 @@ namespace portalIndex.ViewModels
 
                 yield return new ValidationResult(T["need icon image."], new[] { nameof(ProductDesModel.icon) });
 
+            }
+
+            if (laguange == LaguangeType.English)
+            {
+                // check english content  TODO
+               // productDesModel.des.Text 
             }
 
         }
